@@ -252,6 +252,126 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/06/21/test/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Niklas">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/uploads/duffy.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Niklas's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/06/21/test/" itemprop="url">現在時間1:40</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-06-21T01:02:52+08:00">
+                2019-06-21
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p>打完收工<del>~</del></p>
+
+          
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/06/20/hexo_tutorial/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -368,129 +488,37 @@
 
 <h4 id="Restart-blog"><a href="#Restart-blog" class="headerlink" title="Restart blog"></a>Restart blog</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
 
-<h6 id="-1"><a href="#-1" class="headerlink" title="　　"></a>　　</h6><h2 id="5、Post-HEXO-on-github"><a href="#5、Post-HEXO-on-github" class="headerlink" title="5、Post HEXO on github"></a>5、Post HEXO on github</h2><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<h6 id="-1"><a href="#-1" class="headerlink" title="　　"></a>　　</h6><h2 id="5、Post-HEXO-on-github"><a href="#5、Post-HEXO-on-github" class="headerlink" title="5、Post HEXO on github"></a>5、Post HEXO on github</h2><h5 id="At-the-beginning-of-we-need-the-github-accountCreate-a-github-repository-such-as-my-github-name-is-1103105303-then-my-website-is-1103105303-github-io"><a href="#At-the-beginning-of-we-need-the-github-accountCreate-a-github-repository-such-as-my-github-name-is-1103105303-then-my-website-is-1103105303-github-io" class="headerlink" title="　At the beginning of we need the github accountCreate a github repository, such as my github name is 1103105303, then my website is 1103105303.github.io"></a>　At the beginning of we need the github accountCreate a github repository, such as my github name is 1103105303, then my website is 1103105303.github.io</h5><img src="/uploads/HEXO/github_account.JPG" class="[class names]">
+<img src="/uploads/HEXO/github_account2.JPG" class="[class names]">
+<img src="/uploads/HEXO/github_account3.JPG" class="[class names]">
+<img src="/uploads/HEXO/github_account4.JPG" class="[class names]">
+
+<h6 id="Edit-blog-config-yml-gt-find-deploy-deploy-type-git-repo-paste-your-website-link-branch-master"><a href="#Edit-blog-config-yml-gt-find-deploy-deploy-type-git-repo-paste-your-website-link-branch-master" class="headerlink" title="　Edit blog  _config.yml　-&gt; (find deploy) deploy: 　　　　　　　　　　　　　　　　　　　　　　type: git 　　　　　　　　　　　　　　　　　　　　　　repo: (paste your website link) 　　　　　　　　　　　　　　　　　　　　　　branch: master"></a>　Edit blog  _config.yml　-&gt; (find deploy) deploy:<br> 　　　　　　　　　　　　　　　　　　　　　　type: git<br> 　　　　　　　　　　　　　　　　　　　　　　repo: (paste your website link)<br> 　　　　　　　　　　　　　　　　　　　　　　branch: master</h6><h4 id="install-git-kit"><a href="#install-git-kit" class="headerlink" title="　install git kit"></a>　install git kit</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ npm add hexo-deployer-git</span><br></pre></td></tr></table></figure>
+
+<h4 id="Check-link-If-it-show-“git-github-com-Permission-denied-publickey-”-we-need-set-ssh-keys-on-github"><a href="#Check-link-If-it-show-“git-github-com-Permission-denied-publickey-”-we-need-set-ssh-keys-on-github" class="headerlink" title="　Check link　　　If it show “git@github.com : Permission denied(publickey)”,  we need set ssh keys on github"></a>　Check link　<br>　<br>　If it show “<a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a> : Permission denied(publickey)”, <br> we need set ssh keys on github</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh -T git@github.com</span><br></pre></td></tr></table></figure>
+
+<img src="/uploads/HEXO/check_link.JPG" class="[class names]">
+
+<h4 id="find-the-ssh-keys"><a href="#find-the-ssh-keys" class="headerlink" title="　find the ssh keys"></a>　find the ssh keys</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C <span class="string">"aaa525252222@gmail.com"</span> (aaa525252222@gmail.com is my email)</span><br></pre></td></tr></table></figure>
+
+<img src="/uploads/HEXO/ssh_cmd.JPG" class="[class names]">
+
+<h4 id="Then-open-git-bash"><a href="#Then-open-git-bash" class="headerlink" title="　Then open git bash"></a>　Then open git bash</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ cat &lt; ~/.ssh/id_rsa.pub</span><br></pre></td></tr></table></figure>
+
+<img src="/uploads/HEXO/git_bash.JPG" class="[class names]">
+<img src="/uploads/HEXO/ssh_keys.JPG" class="[class names]">
+<img src="/uploads/HEXO/ssh_github.JPG" class="[class names]">
+<img src="/uploads/HEXO/ssh_github2.JPG" class="[class names]">
+
+<h4 id="Check-again-If-successfully-then-setting-account-information"><a href="#Check-again-If-successfully-then-setting-account-information" class="headerlink" title="　Check again 　　　If successfully , then setting account information :"></a>　Check again 　<br>　<br>　If successfully , then setting account information :</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">$ git config --global user.name <span class="string">"1103105303"</span> (your account)</span><br><span class="line">$ git config --global user.email <span class="string">"aaa525252222@gmail.com"</span> (your email)</span><br></pre></td></tr></table></figure>
+
+<h6 id="-2"><a href="#-2" class="headerlink" title="　　"></a>　　</h6><img src="/uploads/HEXO/finish.JPG" class="[class names]">
+
+<h4 id="Upload-on-github"><a href="#Upload-on-github" class="headerlink" title="Upload on github"></a>Upload on github</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+
+<h4 id="Update-github"><a href="#Update-github" class="headerlink" title="Update github"></a>Update github</h4><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo clean &amp;&amp; hexo generate &amp;&amp; hexo d</span><br></pre></td></tr></table></figure>
 
 <h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><h5 id="隨談雜記-用Hexo打造你的專屬Blog"><a href="#隨談雜記-用Hexo打造你的專屬Blog" class="headerlink" title="隨談雜記 - 用Hexo打造你的專屬Blog"></a><a href="https://dtes8617.github.io/2018/01/16/用Hexo打造你的專屬Blog/" target="_blank" rel="noopener">隨談雜記 - 用Hexo打造你的專屬Blog</a></h5><h5 id="MD工坊-第一次架設Hexo網站"><a href="#MD工坊-第一次架設Hexo網站" class="headerlink" title="MD工坊 - 第一次架設Hexo網站"></a><a href="https://magicdogguo.github.io/2019/01/19/%E6%9E%B6%E8%A8%ADHexo%E7%B6%B2%E7%AB%99%E8%8D%89%E7%A8%BF/" target="_blank" rel="noopener">MD工坊 - 第一次架設Hexo網站</a></h5><h5 id="HEXO-標籤外掛（Tag-Plugins）"><a href="#HEXO-標籤外掛（Tag-Plugins）" class="headerlink" title="HEXO - 標籤外掛（Tag Plugins）"></a><a href="https://hexo.io/zh-tw/docs/tag-plugins.html" target="_blank" rel="noopener">HEXO - 標籤外掛（Tag Plugins）</a></h5>
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/06/19/test/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Niklas">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="/uploads/duffy.jpg">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Niklas's blog">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/06/19/test/" itemprop="url">時間不早摟</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-06-19T01:02:52+08:00">
-                2019-06-19
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <p>小不點該睡覺惹<del>~</del></p>
-
           
         
       
