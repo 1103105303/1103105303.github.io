@@ -1,0 +1,113 @@
+1、Create Project
+Project Name -> RTL Project -> Next -> Choose "Boards / ZedBoard Zynq Evaluation and Development Kit" -> Finish
+// image 1 ~ 3
+
+2、Module blinky.v
+Add Sources -> module name -> set I/O port
+// image 4 ~ 7
+Edit blinky.v -> Run Synthesis -> Run Implementation -> Open Implementation Design
+```
+`timescale 1ns / 1ps
+`default_nettype none
+module blinky(
+    input wire clk, 
+    input wire reset,
+    input wire direction,
+    output reg [7:0] leds
+    );
+    
+    always@(posedge clk)begin
+        if(reset == 1)begin
+            leds <= 1;
+        end
+        else begin
+            if(direction == 1)begin
+                leds <= { leds[6:0], leds[7] };
+            end
+            else begin
+                leds <= { leds[0], leds[6:1] };            
+            end
+        end
+    end
+endmodule
+```
+// image 8 ~ 12
+
+We can get ZedBoard Ports and some details by Download -> ZedBoard Hardware User's Guide : http://www.zedboard.org/support/documentation/1521
+We can get ZedBoard Ports setting .ufc by Download -> Zedboard Master UCF Rev C/D v3 : http://www.zedboard.org/support/documentation/1521
+Then we know LED ports are : U14、U19、W22、V22、U21、U22、T21、T22
+
+// image 13 ~ 24 
+
+Now , your leds are lighting
+
+3、Module clock_divider.v
+
+Edit clock_divider.v
+```
+`timescale 1ns / 1ps
+`default_nettype none
+module clock_divider(
+    input wire clk_in,
+    output reg clk_out
+    );
+    
+    parameter DIVIDER = 10000;
+    reg [$clog2(DIVIDER)-1:0] count = 0;
+    reg reset = 1;
+    always @(posedge clk_in)begin
+        if(reset == 1)begin
+            reset <= 0;
+            clk_out <= 0;
+            count <= 0;
+        end
+        else begin
+            if(count == DIVIDER)begin
+                clk_out <= ~clk_out;
+                count <= 0;
+            end
+            else begin
+                count <= count + 1;
+            end
+        end
+    end
+endmodule
+```
+
+Edit blinky.v
+```
+`timescale 1ns / 1ps
+`default_nettype none
+module blinky(
+    input wire clk, 
+    input wire reset,
+    input wire direction,
+    output reg [7:0] leds
+    );
+    wire divclk;
+    clock_divider #(.DIVIDER(50_000_000)) div( .clk_in(clk), .clk_out(divclk));
+    always@(posedge divclk)begin
+        if(reset == 1)begin
+            leds <= 1;
+        end
+        else begin
+            if(direction == 1)begin
+                leds <= { leds[6:0], leds[7] };
+            end
+            else begin
+                leds <= { leds[0], leds[6:1] };            
+            end
+        end
+    end
+endmodule
+
+
+```
+Edit clock_divider.v -> Edit blinky.v -> Run Synthesis -> Run Implementation -> Generate Bitstream -> Open hardware Manager -> Program again
+
+// image 25 ~ 27
+
+Now , we can choose shift_right or shift_left by switch
+
+
+First project with Vivado　:　https://www.youtube.com/watch?v=6lDzz8tzXck

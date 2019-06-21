@@ -1,0 +1,54 @@
+1、install NPM
+	NODE Download : https://nodejs.org/en/download/
+	check npm on cmd : $ npm -v
+2、install git
+	git Download : https://git-scm.com/downloads
+3、install HEXO
+	install hexo on cmd : $ npm install hexo-cli -g
+	check hexo on cmd : $ hexo v
+	create the blog file : $ hexo init blog.Niklas.Huang (blog.Niklas.Huang is my user name)
+	cd to blog path : $ cd blog.Niklas.Huang
+	load Kit : npm install
+	check your blog on local website : $ hexo server
+	check localhost by copy http://localhost:4000 and poaste on chrome
+4、set HEXO
+	change theme download on github : https://github.com/iissnan/hexo-theme-next
+	unzip and move to blog/themes and rename to "Next"
+	blog's  _config.yml
+		change themes -> edit blog's _config.yml : theme: landscape -> theme: Next
+		Add author information : edit blog's  _config.yml : title, subtitle, description, author
+	theme's  _config.yml
+		open social links -> edit theme's _config.yml : (find # Social links) uncommand social: and what you want to use social media
+		add the profile picture : copy photo to source/uploads/ and edit blog's  _config.yml : 
+								  #avatar: /images/avatar.gif ->avatar: /uploads/profile_picture.jpg
+		about me page -> cmd : hexo new page "about" , edit theme's _config : uncommand about: /about
+							add content -> edit source/about/index.md
+		Classified article tag -> cmd : hexo new page "tags" , edit theme's _config : uncommand tags: /tags/ || tags
+							add tags -> edit source/tags/index.md -> title: All tags , type: "tags"
+										then you can add tags on every posts
+	clear last tags : $ hexo clean	
+	restart blog check theme : $ hexo server
+5、Post HEXO on github
+	First of all -> You need the github account
+	Then create a github repository, name is <username>.github.io, such as my github name is 1103105303, then my project name is 1103105303.github.io 
+	install git kit : $ npm add hexo-deployer-git
+	edit website setting -> edit blog's _config , (find deploy) deploy:
+																	type: git
+																	repo: https://github.com/1103105303/1103105303.github.io.git (paste your website link)
+																	branch: master
+	check links : $ ssh -T git@github.com , then input yes , if it show "git@github.com : Permission denied(publickey)"
+															  we need set ssh keys on github
+	find the ssh keys on cmd : $ ssh-keygen -t rsa -C "aaa525252222@gmail.com" (aaa525252222@gmail.com is my email)
+					then open git bash : $ cat < ~/.ssh/id_rsa.pub
+	check link again : $ ssh -T git@github.com if successfully, then setting account information : $ git config --global user.name "1103105303" (your account)
+																								   $ git config --global user.email "aaa525252222@gmail.com" (your email)	
+	upload on github -> cd to your blog's file then : $ hexo deploy
+	update github : $ hexo clean && hexo generate && hexo d
+	
+
+https://hexo.io/zh-tw/docs/tag-plugins.html
+	post_asset_folder: true
+	{% img [class names] /path/to/image [width] [height] [title text [alt text]] %}
+	
+
+	
