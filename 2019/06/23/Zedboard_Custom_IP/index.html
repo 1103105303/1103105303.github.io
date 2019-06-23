@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="ZedBoard,">
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="ZedBoard turn on Light by launching SDK and Custom IP">
+<meta name="keywords" content="ZedBoard">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Zedboard_Custom_IP">
+<meta property="og:url" content="http://yoursite.com/2019/06/23/Zedboard_Custom_IP/index.html">
+<meta property="og:site_name" content="RenHeng&#39;s blog">
+<meta property="og:description" content="ZedBoard turn on Light by launching SDK and Custom IP">
+<meta property="og:locale" content="default">
+<meta property="og:image" content="http://yoursite.com/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_0.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_1.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_2.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_3.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_4.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_5.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_6.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_7.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_8.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_9.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_10.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_11.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_12.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_13.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_14.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_15.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_16.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_17.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_18.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_19.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_20.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_21.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_22.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_23.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_24.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_25.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_26.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_27.PNG">
+<meta property="og:updated_time" content="2019-06-23T03:39:26.383Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Zedboard_Custom_IP">
+<meta name="twitter:description" content="ZedBoard turn on Light by launching SDK and Custom IP">
+<meta name="twitter:image" content="http://yoursite.com/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_0.PNG">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2019/06/23/Zedboard_Custom_IP/">
+
+
+
+
+
+  <title>Zedboard_Custom_IP | RenHeng's blog</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="default">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">RenHeng's blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">No Gain Without pain</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            About
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            Tags
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            Archives
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/06/23/Zedboard_Custom_IP/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="RenHeng, Huang">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/uploads/duffy.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="RenHeng's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">Zedboard_Custom_IP</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-06-23T09:48:20+08:00">
+                2019-06-23
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p><b> <font size="6"> ZedBoard turn on Light by launching <a href="https://en.wikipedia.org/wiki/Software_development_kit" target="_blank" rel="noopener">SDK</a> and Custom <a href="https://www.so-logic.net/documents/knowledge/tutorial/Basic_FPGA_Tutorial_Verilog/sec_designing_with_ips.html" target="_blank" rel="noopener">IP</a></font></b></p>
+<img src="/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_0.PNG" class="[class names]">
+<a id="more"></a>
+
+<h1 id="1、Create-Project"><a href="#1、Create-Project" class="headerlink" title="  1、Create Project"></a><br> <font size="5"> 1、Create Project</font></h1><h2 id="Project-Name-gt-RTL-Project-gt-Next-gt-Choose-“Boards-ZedBoard-Zynq-Evaluation-and-Development-Kit”-gt-Finish"><a href="#Project-Name-gt-RTL-Project-gt-Next-gt-Choose-“Boards-ZedBoard-Zynq-Evaluation-and-Development-Kit”-gt-Finish" class="headerlink" title=" Project Name -&gt; RTL Project -&gt; Next -&gt; Choose “Boards / ZedBoard Zynq Evaluation and Development Kit” -&gt; Finish  "></a><font size="4"> Project Name -&gt; RTL Project -&gt; Next -&gt; Choose “Boards / ZedBoard Zynq Evaluation and Development Kit” -&gt; Finish <br> <br></font></h2><img src="/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_1.PNG" class="[class names]">
+<img src="/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_2.PNG" class="[class names]">
+<img src="/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_3.PNG" class="[class names]">
+<h1 id="2、Custom-IP"><a href="#2、Custom-IP" class="headerlink" title="  2、Custom IP"></a><br> <font size="5"> 2、Custom IP</font></h1><h2 id="Create-Block-Design-gt-add-IP-gt-search-“ZYNQ7-Processing-System-gt-Run-Block-Automation-gt-OK-Double-Click-ZYNQ-gt-Add-UART-0-port"><a href="#Create-Block-Design-gt-add-IP-gt-search-“ZYNQ7-Processing-System-gt-Run-Block-Automation-gt-OK-Double-Click-ZYNQ-gt-Add-UART-0-port" class="headerlink" title=" Create Block Design -&gt; add IP -&gt; search “ZYNQ7 Processing System -&gt; Run Block Automation -&gt; OK   Double Click ZYNQ -&gt; Add UART 0 port  "></a><font size="4"> Create Block Design -&gt; add IP -&gt; search “ZYNQ7 Processing System -&gt; Run Block Automation -&gt; OK <br> <br> Double Click ZYNQ -&gt; Add UART 0 port <br> <br></font></h2><img src="/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_4.PNG" class="[class names]">
+<img src="/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_5.PNG" class="[class names]">
+<img src="/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_6.PNG" class="[class names]">
+<img src="/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_7.PNG" class="[class names]">
+
+
+<h2 id="Create-and-package-New-IP"><a href="#Create-and-package-New-IP" class="headerlink" title=" Create and package New IP "></a><font size="4"> Create and package New IP <br><br></font></h2><img src="/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_8.PNG" class="[class names]">
+<img src="/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_9.PNG" class="[class names]">
+<img src="/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_10.PNG" class="[class names]">
+<img src="/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_11.PNG" class="[class names]">
+
+<h2 id="Edit-in-IP-Package-：-Right-click-“Blinker-ip-0”-and-choose-Edit-in-IP-Package-gt-ok"><a href="#Edit-in-IP-Package-：-Right-click-“Blinker-ip-0”-and-choose-Edit-in-IP-Package-gt-ok" class="headerlink" title=" Edit in IP Package ： Right click “Blinker_ip_0” and choose Edit in IP Package -&gt; ok "></a><font size="4"> Edit in IP Package ： Right click “Blinker_ip_0” and choose Edit in IP Package -&gt; ok <br><br></font></h2><h2 id="Edit-blink-ip-v1-0-v-gt-Edit-blink-ip-v1-0-S00-AXI-v-gt-Merge-changes"><a href="#Edit-blink-ip-v1-0-v-gt-Edit-blink-ip-v1-0-S00-AXI-v-gt-Merge-changes" class="headerlink" title=" Edit blink_ip_v1_0.v -&gt; Edit blink_ip_v1_0_S00_AXI.v -&gt; Merge changes "></a><font size="4"> Edit blink_ip_v1_0.v -&gt; Edit blink_ip_v1_0_S00_AXI.v -&gt; Merge changes <br><br></font></h2><h2 id="Edit-blink-ip-v1-0-v-：-edit-line-17-18-71-73-74"><a href="#Edit-blink-ip-v1-0-v-：-edit-line-17-18-71-73-74" class="headerlink" title=" Edit blink_ip_v1_0.v ： edit line 17, 18, 71, 73, 74 "></a><font size="4"> Edit blink_ip_v1_0.v ： edit line 17, 18, 71, 73, 74 <br></font></h2><figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">`<span class="meta-keyword">timescale</span> 1 ns / 1 ps</span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">module</span> blinker_ip_v1_0 #</span><br><span class="line">	(</span><br><span class="line">		<span class="comment">// Users to add parameters here</span></span><br><span class="line"></span><br><span class="line">		<span class="comment">// User parameters ends</span></span><br><span class="line">		<span class="comment">// Do not modify the parameters beyond this line</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">		<span class="comment">// Parameters of Axi Slave Bus Interface S00_AXI</span></span><br><span class="line">		<span class="keyword">parameter</span> <span class="keyword">integer</span> C_S00_AXI_DATA_WIDTH	= <span class="number">32</span>,</span><br><span class="line">		<span class="keyword">parameter</span> <span class="keyword">integer</span> C_S00_AXI_ADDR_WIDTH	= <span class="number">4</span></span><br><span class="line">	)</span><br><span class="line">	(</span><br><span class="line">		<span class="comment">// Users to add ports here</span></span><br><span class="line">		<span class="keyword">input</span> <span class="keyword">wire</span> [<span class="number">7</span>:<span class="number">0</span>] switches_in,</span><br><span class="line">		<span class="keyword">output</span> <span class="keyword">wire</span> [<span class="number">7</span>:<span class="number">0</span>] leds_out,</span><br><span class="line">		<span class="comment">// User ports ends</span></span><br><span class="line">		<span class="comment">// Do not modify the ports beyond this line</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">		<span class="comment">// Ports of Axi Slave Bus Interface S00_AXI</span></span><br><span class="line">		<span class="keyword">input</span> <span class="keyword">wire</span>  s00_axi_aclk,</span><br><span class="line">		<span class="keyword">input</span> <span class="keyword">wire</span>  s00_axi_aresetn,</span><br><span class="line">		<span class="keyword">input</span> <span class="keyword">wire</span> [C_S00_AXI_ADDR_WIDTH-<span class="number">1</span> : <span class="number">0</span>] s00_axi_awaddr,</span><br><span class="line">		<span class="keyword">input</span> <span class="keyword">wire</span> [<span class="number">2</span> : <span class="number">0</span>] s00_axi_awprot,</span><br><span class="line">		<span class="keyword">input</span> <span class="keyword">wire</span>  s00_axi_awvalid,</span><br><span class="line">		<span class="keyword">output</span> <span class="keyword">wire</span>  s00_axi_awready,</span><br><span class="line">		<span class="keyword">input</span> <span class="keyword">wire</span> [C_S00_AXI_DATA_WIDTH-<span class="number">1</span> : <span class="number">0</span>] s00_axi_wdata,</span><br><span class="line">		<span class="keyword">input</span> <span class="keyword">wire</span> [(C_S00_AXI_DATA_WIDTH/<span class="number">8</span>)-<span class="number">1</span> : <span class="number">0</span>] s00_axi_wstrb,</span><br><span class="line">		<span class="keyword">input</span> <span class="keyword">wire</span>  s00_axi_wvalid,</span><br><span class="line">		<span class="keyword">output</span> <span class="keyword">wire</span>  s00_axi_wready,</span><br><span class="line">		<span class="keyword">output</span> <span class="keyword">wire</span> [<span class="number">1</span> : <span class="number">0</span>] s00_axi_bresp,</span><br><span class="line">		<span class="keyword">output</span> <span class="keyword">wire</span>  s00_axi_bvalid,</span><br><span class="line">		<span class="keyword">input</span> <span class="keyword">wire</span>  s00_axi_bready,</span><br><span class="line">		<span class="keyword">input</span> <span class="keyword">wire</span> [C_S00_AXI_ADDR_WIDTH-<span class="number">1</span> : <span class="number">0</span>] s00_axi_araddr,</span><br><span class="line">		<span class="keyword">input</span> <span class="keyword">wire</span> [<span class="number">2</span> : <span class="number">0</span>] s00_axi_arprot,</span><br><span class="line">		<span class="keyword">input</span> <span class="keyword">wire</span>  s00_axi_arvalid,</span><br><span class="line">		<span class="keyword">output</span> <span class="keyword">wire</span>  s00_axi_arready,</span><br><span class="line">		<span class="keyword">output</span> <span class="keyword">wire</span> [C_S00_AXI_DATA_WIDTH-<span class="number">1</span> : <span class="number">0</span>] s00_axi_rdata,</span><br><span class="line">		<span class="keyword">output</span> <span class="keyword">wire</span> [<span class="number">1</span> : <span class="number">0</span>] s00_axi_rresp,</span><br><span class="line">		<span class="keyword">output</span> <span class="keyword">wire</span>  s00_axi_rvalid,</span><br><span class="line">		<span class="keyword">input</span> <span class="keyword">wire</span>  s00_axi_rready</span><br><span class="line">	);</span><br><span class="line"><span class="comment">// Instantiation of Axi Bus Interface S00_AXI</span></span><br><span class="line">	blinker_ip_v1_0_S00_AXI # ( </span><br><span class="line">		<span class="variable">.C_S_AXI_DATA_WIDTH</span>(C_S00_AXI_DATA_WIDTH),</span><br><span class="line">		<span class="variable">.C_S_AXI_ADDR_WIDTH</span>(C_S00_AXI_ADDR_WIDTH)</span><br><span class="line">	) blinker_ip_v1_0_S00_AXI_inst (</span><br><span class="line">		<span class="variable">.S_AXI_ACLK</span>(s00_axi_aclk),</span><br><span class="line">		<span class="variable">.S_AXI_ARESETN</span>(s00_axi_aresetn),</span><br><span class="line">		<span class="variable">.S_AXI_AWADDR</span>(s00_axi_awaddr),</span><br><span class="line">		<span class="variable">.S_AXI_AWPROT</span>(s00_axi_awprot),</span><br><span class="line">		<span class="variable">.S_AXI_AWVALID</span>(s00_axi_awvalid),</span><br><span class="line">		<span class="variable">.S_AXI_AWREADY</span>(s00_axi_awready),</span><br><span class="line">		<span class="variable">.S_AXI_WDATA</span>(s00_axi_wdata),</span><br><span class="line">		<span class="variable">.S_AXI_WSTRB</span>(s00_axi_wstrb),</span><br><span class="line">		<span class="variable">.S_AXI_WVALID</span>(s00_axi_wvalid),</span><br><span class="line">		<span class="variable">.S_AXI_WREADY</span>(s00_axi_wready),</span><br><span class="line">		<span class="variable">.S_AXI_BRESP</span>(s00_axi_bresp),</span><br><span class="line">		<span class="variable">.S_AXI_BVALID</span>(s00_axi_bvalid),</span><br><span class="line">		<span class="variable">.S_AXI_BREADY</span>(s00_axi_bready),</span><br><span class="line">		<span class="variable">.S_AXI_ARADDR</span>(s00_axi_araddr),</span><br><span class="line">		<span class="variable">.S_AXI_ARPROT</span>(s00_axi_arprot),</span><br><span class="line">		<span class="variable">.S_AXI_ARVALID</span>(s00_axi_arvalid),</span><br><span class="line">		<span class="variable">.S_AXI_ARREADY</span>(s00_axi_arready),</span><br><span class="line">		<span class="variable">.S_AXI_RDATA</span>(s00_axi_rdata),</span><br><span class="line">		<span class="variable">.S_AXI_RRESP</span>(s00_axi_rresp),</span><br><span class="line">		<span class="variable">.S_AXI_RVALID</span>(s00_axi_rvalid),</span><br><span class="line">		<span class="variable">.S_AXI_RREADY</span>(s00_axi_rready),</span><br><span class="line">		</span><br><span class="line">		<span class="variable">.switches_in</span>(switches_in),</span><br><span class="line">		<span class="variable">.leds_out</span>(leds_out)</span><br><span class="line">	);</span><br><span class="line"></span><br><span class="line">	<span class="comment">// Add user logic here</span></span><br><span class="line"></span><br><span class="line">	<span class="comment">// User logic ends</span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">endmodule</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="Edit-blink-ip-v1-0-S00-AXI-v-：-edit-line-17-18-376-378-403"><a href="#Edit-blink-ip-v1-0-S00-AXI-v-：-edit-line-17-18-376-378-403" class="headerlink" title=" Edit blink_ip_v1_0_S00_AXI.v ： edit line 17, 18, 376, 378, 403 "></a><font size="4"> Edit blink_ip_v1_0_S00_AXI.v ： edit line 17, 18, 376, 378, 403 <br></font></h2><figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br><span class="line">195</span><br><span class="line">196</span><br><span class="line">197</span><br><span class="line">198</span><br><span class="line">199</span><br><span class="line">200</span><br><span class="line">201</span><br><span class="line">202</span><br><span class="line">203</span><br><span class="line">204</span><br><span class="line">205</span><br><span class="line">206</span><br><span class="line">207</span><br><span class="line">208</span><br><span class="line">209</span><br><span class="line">210</span><br><span class="line">211</span><br><span class="line">212</span><br><span class="line">213</span><br><span class="line">214</span><br><span class="line">215</span><br><span class="line">216</span><br><span class="line">217</span><br><span class="line">218</span><br><span class="line">219</span><br><span class="line">220</span><br><span class="line">221</span><br><span class="line">222</span><br><span class="line">223</span><br><span class="line">224</span><br><span class="line">225</span><br><span class="line">226</span><br><span class="line">227</span><br><span class="line">228</span><br><span class="line">229</span><br><span class="line">230</span><br><span class="line">231</span><br><span class="line">232</span><br><span class="line">233</span><br><span class="line">234</span><br><span class="line">235</span><br><span class="line">236</span><br><span class="line">237</span><br><span class="line">238</span><br><span class="line">239</span><br><span class="line">240</span><br><span class="line">241</span><br><span class="line">242</span><br><span class="line">243</span><br><span class="line">244</span><br><span class="line">245</span><br><span class="line">246</span><br><span class="line">247</span><br><span class="line">248</span><br><span class="line">249</span><br><span class="line">250</span><br><span class="line">251</span><br><span class="line">252</span><br><span class="line">253</span><br><span class="line">254</span><br><span class="line">255</span><br><span class="line">256</span><br><span class="line">257</span><br><span class="line">258</span><br><span class="line">259</span><br><span class="line">260</span><br><span class="line">261</span><br><span class="line">262</span><br><span class="line">263</span><br><span class="line">264</span><br><span class="line">265</span><br><span class="line">266</span><br><span class="line">267</span><br><span class="line">268</span><br><span class="line">269</span><br><span class="line">270</span><br><span class="line">271</span><br><span class="line">272</span><br><span class="line">273</span><br><span class="line">274</span><br><span class="line">275</span><br><span class="line">276</span><br><span class="line">277</span><br><span class="line">278</span><br><span class="line">279</span><br><span class="line">280</span><br><span class="line">281</span><br><span class="line">282</span><br><span class="line">283</span><br><span class="line">284</span><br><span class="line">285</span><br><span class="line">286</span><br><span class="line">287</span><br><span class="line">288</span><br><span class="line">289</span><br><span class="line">290</span><br><span class="line">291</span><br><span class="line">292</span><br><span class="line">293</span><br><span class="line">294</span><br><span class="line">295</span><br><span class="line">296</span><br><span class="line">297</span><br><span class="line">298</span><br><span class="line">299</span><br><span class="line">300</span><br><span class="line">301</span><br><span class="line">302</span><br><span class="line">303</span><br><span class="line">304</span><br><span class="line">305</span><br><span class="line">306</span><br><span class="line">307</span><br><span class="line">308</span><br><span class="line">309</span><br><span class="line">310</span><br><span class="line">311</span><br><span class="line">312</span><br><span class="line">313</span><br><span class="line">314</span><br><span class="line">315</span><br><span class="line">316</span><br><span class="line">317</span><br><span class="line">318</span><br><span class="line">319</span><br><span class="line">320</span><br><span class="line">321</span><br><span class="line">322</span><br><span class="line">323</span><br><span class="line">324</span><br><span class="line">325</span><br><span class="line">326</span><br><span class="line">327</span><br><span class="line">328</span><br><span class="line">329</span><br><span class="line">330</span><br><span class="line">331</span><br><span class="line">332</span><br><span class="line">333</span><br><span class="line">334</span><br><span class="line">335</span><br><span class="line">336</span><br><span class="line">337</span><br><span class="line">338</span><br><span class="line">339</span><br><span class="line">340</span><br><span class="line">341</span><br><span class="line">342</span><br><span class="line">343</span><br><span class="line">344</span><br><span class="line">345</span><br><span class="line">346</span><br><span class="line">347</span><br><span class="line">348</span><br><span class="line">349</span><br><span class="line">350</span><br><span class="line">351</span><br><span class="line">352</span><br><span class="line">353</span><br><span class="line">354</span><br><span class="line">355</span><br><span class="line">356</span><br><span class="line">357</span><br><span class="line">358</span><br><span class="line">359</span><br><span class="line">360</span><br><span class="line">361</span><br><span class="line">362</span><br><span class="line">363</span><br><span class="line">364</span><br><span class="line">365</span><br><span class="line">366</span><br><span class="line">367</span><br><span class="line">368</span><br><span class="line">369</span><br><span class="line">370</span><br><span class="line">371</span><br><span class="line">372</span><br><span class="line">373</span><br><span class="line">374</span><br><span class="line">375</span><br><span class="line">376</span><br><span class="line">377</span><br><span class="line">378</span><br><span class="line">379</span><br><span class="line">380</span><br><span class="line">381</span><br><span class="line">382</span><br><span class="line">383</span><br><span class="line">384</span><br><span class="line">385</span><br><span class="line">386</span><br><span class="line">387</span><br><span class="line">388</span><br><span class="line">389</span><br><span class="line">390</span><br><span class="line">391</span><br><span class="line">392</span><br><span class="line">393</span><br><span class="line">394</span><br><span class="line">395</span><br><span class="line">396</span><br><span class="line">397</span><br><span class="line">398</span><br><span class="line">399</span><br><span class="line">400</span><br><span class="line">401</span><br><span class="line">402</span><br><span class="line">403</span><br><span class="line">404</span><br><span class="line">405</span><br><span class="line">406</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">`<span class="meta-keyword">timescale</span> 1 ns / 1 ps</span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">module</span> blinker_ip_v1_0_S00_AXI #</span><br><span class="line">	(</span><br><span class="line">		<span class="comment">// Users to add parameters here</span></span><br><span class="line"></span><br><span class="line">		<span class="comment">// User parameters ends</span></span><br><span class="line">		<span class="comment">// Do not modify the parameters beyond this line</span></span><br><span class="line"></span><br><span class="line">		<span class="comment">// Width of S_AXI data bus</span></span><br><span class="line">		<span class="keyword">parameter</span> <span class="keyword">integer</span> C_S_AXI_DATA_WIDTH	= <span class="number">32</span>,</span><br><span class="line">		<span class="comment">// Width of S_AXI address bus</span></span><br><span class="line">		<span class="keyword">parameter</span> <span class="keyword">integer</span> C_S_AXI_ADDR_WIDTH	= <span class="number">4</span></span><br><span class="line">	)</span><br><span class="line">	(</span><br><span class="line">		<span class="comment">// Users to add ports here</span></span><br><span class="line">		<span class="keyword">input</span> <span class="keyword">wire</span> [<span class="number">7</span>:<span class="number">0</span>] switches_in,</span><br><span class="line">		<span class="keyword">output</span> <span class="keyword">wire</span> [<span class="number">7</span>:<span class="number">0</span>] leds_out,</span><br><span class="line">		<span class="comment">// User ports ends</span></span><br><span class="line">		<span class="comment">// Do not modify the ports beyond this line</span></span><br><span class="line"></span><br><span class="line">		<span class="comment">// Global Clock Signal</span></span><br><span class="line">		<span class="keyword">input</span> <span class="keyword">wire</span>  S_AXI_ACLK,</span><br><span class="line">		<span class="comment">// Global Reset Signal. This Signal is Active LOW</span></span><br><span class="line">		<span class="keyword">input</span> <span class="keyword">wire</span>  S_AXI_ARESETN,</span><br><span class="line">		<span class="comment">// Write address (issued by master, acceped by Slave)</span></span><br><span class="line">		<span class="keyword">input</span> <span class="keyword">wire</span> [C_S_AXI_ADDR_WIDTH-<span class="number">1</span> : <span class="number">0</span>] S_AXI_AWADDR,</span><br><span class="line">		<span class="comment">// Write channel Protection type. This signal indicates the</span></span><br><span class="line">    		<span class="comment">// privilege and security level of the transaction, and whether</span></span><br><span class="line">    		<span class="comment">// the transaction is a data access or an instruction access.</span></span><br><span class="line">		<span class="keyword">input</span> <span class="keyword">wire</span> [<span class="number">2</span> : <span class="number">0</span>] S_AXI_AWPROT,</span><br><span class="line">		<span class="comment">// Write address valid. This signal indicates that the master signaling</span></span><br><span class="line">    		<span class="comment">// valid write address and control information.</span></span><br><span class="line">		<span class="keyword">input</span> <span class="keyword">wire</span>  S_AXI_AWVALID,</span><br><span class="line">		<span class="comment">// Write address ready. This signal indicates that the slave is ready</span></span><br><span class="line">    		<span class="comment">// to accept an address and associated control signals.</span></span><br><span class="line">		<span class="keyword">output</span> <span class="keyword">wire</span>  S_AXI_AWREADY,</span><br><span class="line">		<span class="comment">// Write data (issued by master, acceped by Slave) </span></span><br><span class="line">		<span class="keyword">input</span> <span class="keyword">wire</span> [C_S_AXI_DATA_WIDTH-<span class="number">1</span> : <span class="number">0</span>] S_AXI_WDATA,</span><br><span class="line">		<span class="comment">// Write strobes. This signal indicates which byte lanes hold</span></span><br><span class="line">    		<span class="comment">// valid data. There is one write strobe bit for each eight</span></span><br><span class="line">    		<span class="comment">// bits of the write data bus.    </span></span><br><span class="line">		<span class="keyword">input</span> <span class="keyword">wire</span> [(C_S_AXI_DATA_WIDTH/<span class="number">8</span>)-<span class="number">1</span> : <span class="number">0</span>] S_AXI_WSTRB,</span><br><span class="line">		<span class="comment">// Write valid. This signal indicates that valid write</span></span><br><span class="line">    		<span class="comment">// data and strobes are available.</span></span><br><span class="line">		<span class="keyword">input</span> <span class="keyword">wire</span>  S_AXI_WVALID,</span><br><span class="line">		<span class="comment">// Write ready. This signal indicates that the slave</span></span><br><span class="line">    		<span class="comment">// can accept the write data.</span></span><br><span class="line">		<span class="keyword">output</span> <span class="keyword">wire</span>  S_AXI_WREADY,</span><br><span class="line">		<span class="comment">// Write response. This signal indicates the status</span></span><br><span class="line">    		<span class="comment">// of the write transaction.</span></span><br><span class="line">		<span class="keyword">output</span> <span class="keyword">wire</span> [<span class="number">1</span> : <span class="number">0</span>] S_AXI_BRESP,</span><br><span class="line">		<span class="comment">// Write response valid. This signal indicates that the channel</span></span><br><span class="line">    		<span class="comment">// is signaling a valid write response.</span></span><br><span class="line">		<span class="keyword">output</span> <span class="keyword">wire</span>  S_AXI_BVALID,</span><br><span class="line">		<span class="comment">// Response ready. This signal indicates that the master</span></span><br><span class="line">    		<span class="comment">// can accept a write response.</span></span><br><span class="line">		<span class="keyword">input</span> <span class="keyword">wire</span>  S_AXI_BREADY,</span><br><span class="line">		<span class="comment">// Read address (issued by master, acceped by Slave)</span></span><br><span class="line">		<span class="keyword">input</span> <span class="keyword">wire</span> [C_S_AXI_ADDR_WIDTH-<span class="number">1</span> : <span class="number">0</span>] S_AXI_ARADDR,</span><br><span class="line">		<span class="comment">// Protection type. This signal indicates the privilege</span></span><br><span class="line">    		<span class="comment">// and security level of the transaction, and whether the</span></span><br><span class="line">    		<span class="comment">// transaction is a data access or an instruction access.</span></span><br><span class="line">		<span class="keyword">input</span> <span class="keyword">wire</span> [<span class="number">2</span> : <span class="number">0</span>] S_AXI_ARPROT,</span><br><span class="line">		<span class="comment">// Read address valid. This signal indicates that the channel</span></span><br><span class="line">    		<span class="comment">// is signaling valid read address and control information.</span></span><br><span class="line">		<span class="keyword">input</span> <span class="keyword">wire</span>  S_AXI_ARVALID,</span><br><span class="line">		<span class="comment">// Read address ready. This signal indicates that the slave is</span></span><br><span class="line">    		<span class="comment">// ready to accept an address and associated control signals.</span></span><br><span class="line">		<span class="keyword">output</span> <span class="keyword">wire</span>  S_AXI_ARREADY,</span><br><span class="line">		<span class="comment">// Read data (issued by slave)</span></span><br><span class="line">		<span class="keyword">output</span> <span class="keyword">wire</span> [C_S_AXI_DATA_WIDTH-<span class="number">1</span> : <span class="number">0</span>] S_AXI_RDATA,</span><br><span class="line">		<span class="comment">// Read response. This signal indicates the status of the</span></span><br><span class="line">    		<span class="comment">// read transfer.</span></span><br><span class="line">		<span class="keyword">output</span> <span class="keyword">wire</span> [<span class="number">1</span> : <span class="number">0</span>] S_AXI_RRESP,</span><br><span class="line">		<span class="comment">// Read valid. This signal indicates that the channel is</span></span><br><span class="line">    		<span class="comment">// signaling the required read data.</span></span><br><span class="line">		<span class="keyword">output</span> <span class="keyword">wire</span>  S_AXI_RVALID,</span><br><span class="line">		<span class="comment">// Read ready. This signal indicates that the master can</span></span><br><span class="line">    		<span class="comment">// accept the read data and response information.</span></span><br><span class="line">		<span class="keyword">input</span> <span class="keyword">wire</span>  S_AXI_RREADY</span><br><span class="line">	);</span><br><span class="line"></span><br><span class="line">	<span class="comment">// AXI4LITE signals</span></span><br><span class="line">	<span class="keyword">reg</span> [C_S_AXI_ADDR_WIDTH-<span class="number">1</span> : <span class="number">0</span>] 	axi_awaddr;</span><br><span class="line">	<span class="keyword">reg</span>  	axi_awready;</span><br><span class="line">	<span class="keyword">reg</span>  	axi_wready;</span><br><span class="line">	<span class="keyword">reg</span> [<span class="number">1</span> : <span class="number">0</span>] 	axi_bresp;</span><br><span class="line">	<span class="keyword">reg</span>  	axi_bvalid;</span><br><span class="line">	<span class="keyword">reg</span> [C_S_AXI_ADDR_WIDTH-<span class="number">1</span> : <span class="number">0</span>] 	axi_araddr;</span><br><span class="line">	<span class="keyword">reg</span>  	axi_arready;</span><br><span class="line">	<span class="keyword">reg</span> [C_S_AXI_DATA_WIDTH-<span class="number">1</span> : <span class="number">0</span>] 	axi_rdata;</span><br><span class="line">	<span class="keyword">reg</span> [<span class="number">1</span> : <span class="number">0</span>] 	axi_rresp;</span><br><span class="line">	<span class="keyword">reg</span>  	axi_rvalid;</span><br><span class="line"></span><br><span class="line">	<span class="comment">// Example-specific design signals</span></span><br><span class="line">	<span class="comment">// local parameter for addressing 32 bit / 64 bit C_S_AXI_DATA_WIDTH</span></span><br><span class="line">	<span class="comment">// ADDR_LSB is used for addressing 32/64 bit registers/memories</span></span><br><span class="line">	<span class="comment">// ADDR_LSB = 2 for 32 bits (n downto 2)</span></span><br><span class="line">	<span class="comment">// ADDR_LSB = 3 for 64 bits (n downto 3)</span></span><br><span class="line">	<span class="keyword">localparam</span> <span class="keyword">integer</span> ADDR_LSB = (C_S_AXI_DATA_WIDTH/<span class="number">32</span>) + <span class="number">1</span>;</span><br><span class="line">	<span class="keyword">localparam</span> <span class="keyword">integer</span> OPT_MEM_ADDR_BITS = <span class="number">1</span>;</span><br><span class="line">	<span class="comment">//----------------------------------------------</span></span><br><span class="line">	<span class="comment">//-- Signals for user logic register space example</span></span><br><span class="line">	<span class="comment">//------------------------------------------------</span></span><br><span class="line">	<span class="comment">//-- Number of Slave Registers 4</span></span><br><span class="line">	<span class="keyword">reg</span> [C_S_AXI_DATA_WIDTH-<span class="number">1</span>:<span class="number">0</span>]	slv_reg0;</span><br><span class="line">	<span class="keyword">reg</span> [C_S_AXI_DATA_WIDTH-<span class="number">1</span>:<span class="number">0</span>]	slv_reg1;</span><br><span class="line">	<span class="keyword">reg</span> [C_S_AXI_DATA_WIDTH-<span class="number">1</span>:<span class="number">0</span>]	slv_reg2;</span><br><span class="line">	<span class="keyword">reg</span> [C_S_AXI_DATA_WIDTH-<span class="number">1</span>:<span class="number">0</span>]	slv_reg3;</span><br><span class="line">	<span class="keyword">wire</span>	 slv_reg_rden;</span><br><span class="line">	<span class="keyword">wire</span>	 slv_reg_wren;</span><br><span class="line">	<span class="keyword">reg</span> [C_S_AXI_DATA_WIDTH-<span class="number">1</span>:<span class="number">0</span>]	 reg_data_out;</span><br><span class="line">	<span class="keyword">integer</span>	 byte_index;</span><br><span class="line">	<span class="keyword">reg</span>	 aw_en;</span><br><span class="line"></span><br><span class="line">	<span class="comment">// I/O Connections assignments</span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">assign</span> S_AXI_AWREADY	= axi_awready;</span><br><span class="line">	<span class="keyword">assign</span> S_AXI_WREADY	= axi_wready;</span><br><span class="line">	<span class="keyword">assign</span> S_AXI_BRESP	= axi_bresp;</span><br><span class="line">	<span class="keyword">assign</span> S_AXI_BVALID	= axi_bvalid;</span><br><span class="line">	<span class="keyword">assign</span> S_AXI_ARREADY	= axi_arready;</span><br><span class="line">	<span class="keyword">assign</span> S_AXI_RDATA	= axi_rdata;</span><br><span class="line">	<span class="keyword">assign</span> S_AXI_RRESP	= axi_rresp;</span><br><span class="line">	<span class="keyword">assign</span> S_AXI_RVALID	= axi_rvalid;</span><br><span class="line">	<span class="comment">// Implement axi_awready generation</span></span><br><span class="line">	<span class="comment">// axi_awready is asserted for one S_AXI_ACLK clock cycle when both</span></span><br><span class="line">	<span class="comment">// S_AXI_AWVALID and S_AXI_WVALID are asserted. axi_awready is</span></span><br><span class="line">	<span class="comment">// de-asserted when reset is low.</span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">always</span> @( <span class="keyword">posedge</span> S_AXI_ACLK )</span><br><span class="line">	<span class="keyword">begin</span></span><br><span class="line">	  <span class="keyword">if</span> ( S_AXI_ARESETN == <span class="number">1'b0</span> )</span><br><span class="line">	    <span class="keyword">begin</span></span><br><span class="line">	      axi_awready &lt;= <span class="number">1'b0</span>;</span><br><span class="line">	      aw_en &lt;= <span class="number">1'b1</span>;</span><br><span class="line">	    <span class="keyword">end</span> </span><br><span class="line">	  <span class="keyword">else</span></span><br><span class="line">	    <span class="keyword">begin</span>    </span><br><span class="line">	      <span class="keyword">if</span> (~axi_awready &amp;&amp; S_AXI_AWVALID &amp;&amp; S_AXI_WVALID &amp;&amp; aw_en)</span><br><span class="line">	        <span class="keyword">begin</span></span><br><span class="line">			</span><br><span class="line">	          <span class="comment">// slave is ready to accept write address when </span></span><br><span class="line">	          <span class="comment">// there is a valid write address and write data</span></span><br><span class="line">	          <span class="comment">// on the write address and data bus. This design </span></span><br><span class="line">	          <span class="comment">// expects no outstanding transactions. </span></span><br><span class="line">	        </span><br><span class="line">	          axi_awready &lt;= <span class="number">1'b1</span>;</span><br><span class="line">	          aw_en &lt;= <span class="number">1'b0</span>;</span><br><span class="line">	        <span class="keyword">end</span></span><br><span class="line">	        <span class="keyword">else</span> <span class="keyword">if</span> (S_AXI_BREADY &amp;&amp; axi_bvalid)</span><br><span class="line">	            <span class="keyword">begin</span></span><br><span class="line">	              aw_en &lt;= <span class="number">1'b1</span>;</span><br><span class="line">	              axi_awready &lt;= <span class="number">1'b0</span>;</span><br><span class="line">	            <span class="keyword">end</span></span><br><span class="line">	      <span class="keyword">else</span>           </span><br><span class="line">	        <span class="keyword">begin</span></span><br><span class="line">	          axi_awready &lt;= <span class="number">1'b0</span>;</span><br><span class="line">	        <span class="keyword">end</span></span><br><span class="line">	    <span class="keyword">end</span> </span><br><span class="line">	<span class="keyword">end</span>       </span><br><span class="line"></span><br><span class="line">	<span class="comment">// Implement axi_awaddr latching</span></span><br><span class="line">	<span class="comment">// This process is used to latch the address when both </span></span><br><span class="line">	<span class="comment">// S_AXI_AWVALID and S_AXI_WVALID are valid. </span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">always</span> @( <span class="keyword">posedge</span> S_AXI_ACLK )</span><br><span class="line">	<span class="keyword">begin</span></span><br><span class="line">	  <span class="keyword">if</span> ( S_AXI_ARESETN == <span class="number">1'b0</span> )</span><br><span class="line">	    <span class="keyword">begin</span></span><br><span class="line">	      axi_awaddr &lt;= <span class="number">0</span>;</span><br><span class="line">	    <span class="keyword">end</span> </span><br><span class="line">	  <span class="keyword">else</span></span><br><span class="line">	    <span class="keyword">begin</span>    </span><br><span class="line">	      <span class="keyword">if</span> (~axi_awready &amp;&amp; S_AXI_AWVALID &amp;&amp; S_AXI_WVALID &amp;&amp; aw_en)</span><br><span class="line">	        <span class="keyword">begin</span></span><br><span class="line">	          <span class="comment">// Write Address latching </span></span><br><span class="line">	          axi_awaddr &lt;= S_AXI_AWADDR;</span><br><span class="line">	        <span class="keyword">end</span></span><br><span class="line">	    <span class="keyword">end</span> </span><br><span class="line">	<span class="keyword">end</span>       </span><br><span class="line"></span><br><span class="line">	<span class="comment">// Implement axi_wready generation</span></span><br><span class="line">	<span class="comment">// axi_wready is asserted for one S_AXI_ACLK clock cycle when both</span></span><br><span class="line">	<span class="comment">// S_AXI_AWVALID and S_AXI_WVALID are asserted. axi_wready is </span></span><br><span class="line">	<span class="comment">// de-asserted when reset is low. </span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">always</span> @( <span class="keyword">posedge</span> S_AXI_ACLK )</span><br><span class="line">	<span class="keyword">begin</span></span><br><span class="line">	  <span class="keyword">if</span> ( S_AXI_ARESETN == <span class="number">1'b0</span> )</span><br><span class="line">	    <span class="keyword">begin</span></span><br><span class="line">	      axi_wready &lt;= <span class="number">1'b0</span>;</span><br><span class="line">	    <span class="keyword">end</span> </span><br><span class="line">	  <span class="keyword">else</span></span><br><span class="line">	    <span class="keyword">begin</span>    </span><br><span class="line">	      <span class="keyword">if</span> (~axi_wready &amp;&amp; S_AXI_WVALID &amp;&amp; S_AXI_AWVALID &amp;&amp; aw_en )</span><br><span class="line">	        <span class="keyword">begin</span></span><br><span class="line">	          <span class="comment">// slave is ready to accept write data when </span></span><br><span class="line">	          <span class="comment">// there is a valid write address and write data</span></span><br><span class="line">	          <span class="comment">// on the write address and data bus. This design </span></span><br><span class="line">	          <span class="comment">// expects no outstanding transactions. </span></span><br><span class="line">	          axi_wready &lt;= <span class="number">1'b1</span>;</span><br><span class="line">	        <span class="keyword">end</span></span><br><span class="line">	      <span class="keyword">else</span></span><br><span class="line">	        <span class="keyword">begin</span></span><br><span class="line">	          axi_wready &lt;= <span class="number">1'b0</span>;</span><br><span class="line">	        <span class="keyword">end</span></span><br><span class="line">	    <span class="keyword">end</span> </span><br><span class="line">	<span class="keyword">end</span>       </span><br><span class="line"></span><br><span class="line">	<span class="comment">// Implement memory mapped register select and write logic generation</span></span><br><span class="line">	<span class="comment">// The write data is accepted and written to memory mapped registers when</span></span><br><span class="line">	<span class="comment">// axi_awready, S_AXI_WVALID, axi_wready and S_AXI_WVALID are asserted. Write strobes are used to</span></span><br><span class="line">	<span class="comment">// select byte enables of slave registers while writing.</span></span><br><span class="line">	<span class="comment">// These registers are cleared when reset (active low) is applied.</span></span><br><span class="line">	<span class="comment">// Slave register write enable is asserted when valid address and data are available</span></span><br><span class="line">	<span class="comment">// and the slave is ready to accept the write address and write data.</span></span><br><span class="line">	<span class="keyword">assign</span> slv_reg_wren = axi_wready &amp;&amp; S_AXI_WVALID &amp;&amp; axi_awready &amp;&amp; S_AXI_AWVALID;</span><br><span class="line"></span><br><span class="line">	<span class="keyword">always</span> @( <span class="keyword">posedge</span> S_AXI_ACLK )</span><br><span class="line">	<span class="keyword">begin</span></span><br><span class="line">	  <span class="keyword">if</span> ( S_AXI_ARESETN == <span class="number">1'b0</span> )</span><br><span class="line">	    <span class="keyword">begin</span></span><br><span class="line">	      slv_reg0 &lt;= <span class="number">0</span>;</span><br><span class="line">	      slv_reg1 &lt;= <span class="number">0</span>;</span><br><span class="line">	      slv_reg2 &lt;= <span class="number">0</span>;</span><br><span class="line">	      slv_reg3 &lt;= <span class="number">0</span>;</span><br><span class="line">	    <span class="keyword">end</span> </span><br><span class="line">	  <span class="keyword">else</span> <span class="keyword">begin</span></span><br><span class="line">	    <span class="keyword">if</span> (slv_reg_wren)</span><br><span class="line">	      <span class="keyword">begin</span></span><br><span class="line">	        <span class="keyword">case</span> ( axi_awaddr[ADDR_LSB+OPT_MEM_ADDR_BITS:ADDR_LSB] )</span><br><span class="line">	          <span class="number">2'h0</span>:</span><br><span class="line">	            <span class="keyword">for</span> ( byte_index = <span class="number">0</span>; byte_index &lt;= (C_S_AXI_DATA_WIDTH/<span class="number">8</span>)-<span class="number">1</span>; byte_index = byte_index+<span class="number">1</span> )</span><br><span class="line">	              <span class="keyword">if</span> ( S_AXI_WSTRB[byte_index] == <span class="number">1</span> ) <span class="keyword">begin</span></span><br><span class="line">	                <span class="comment">// Respective byte enables are asserted as per write strobes </span></span><br><span class="line">	                <span class="comment">// Slave register 0</span></span><br><span class="line">	                slv_reg0[(byte_index*<span class="number">8</span>) +: <span class="number">8</span>] &lt;= S_AXI_WDATA[(byte_index*<span class="number">8</span>) +: <span class="number">8</span>];</span><br><span class="line">	              <span class="keyword">end</span>  </span><br><span class="line">	          <span class="number">2'h1</span>:</span><br><span class="line">	            <span class="keyword">for</span> ( byte_index = <span class="number">0</span>; byte_index &lt;= (C_S_AXI_DATA_WIDTH/<span class="number">8</span>)-<span class="number">1</span>; byte_index = byte_index+<span class="number">1</span> )</span><br><span class="line">	              <span class="keyword">if</span> ( S_AXI_WSTRB[byte_index] == <span class="number">1</span> ) <span class="keyword">begin</span></span><br><span class="line">	                <span class="comment">// Respective byte enables are asserted as per write strobes </span></span><br><span class="line">	                <span class="comment">// Slave register 1</span></span><br><span class="line">	                slv_reg1[(byte_index*<span class="number">8</span>) +: <span class="number">8</span>] &lt;= S_AXI_WDATA[(byte_index*<span class="number">8</span>) +: <span class="number">8</span>];</span><br><span class="line">	              <span class="keyword">end</span>  </span><br><span class="line">	          <span class="number">2'h2</span>:</span><br><span class="line">	            <span class="keyword">for</span> ( byte_index = <span class="number">0</span>; byte_index &lt;= (C_S_AXI_DATA_WIDTH/<span class="number">8</span>)-<span class="number">1</span>; byte_index = byte_index+<span class="number">1</span> )</span><br><span class="line">	              <span class="keyword">if</span> ( S_AXI_WSTRB[byte_index] == <span class="number">1</span> ) <span class="keyword">begin</span></span><br><span class="line">	                <span class="comment">// Respective byte enables are asserted as per write strobes </span></span><br><span class="line">	                <span class="comment">// Slave register 2</span></span><br><span class="line">	                slv_reg2[(byte_index*<span class="number">8</span>) +: <span class="number">8</span>] &lt;= S_AXI_WDATA[(byte_index*<span class="number">8</span>) +: <span class="number">8</span>];</span><br><span class="line">	              <span class="keyword">end</span>  </span><br><span class="line">	          <span class="number">2'h3</span>:</span><br><span class="line">	            <span class="keyword">for</span> ( byte_index = <span class="number">0</span>; byte_index &lt;= (C_S_AXI_DATA_WIDTH/<span class="number">8</span>)-<span class="number">1</span>; byte_index = byte_index+<span class="number">1</span> )</span><br><span class="line">	              <span class="keyword">if</span> ( S_AXI_WSTRB[byte_index] == <span class="number">1</span> ) <span class="keyword">begin</span></span><br><span class="line">	                <span class="comment">// Respective byte enables are asserted as per write strobes </span></span><br><span class="line">	                <span class="comment">// Slave register 3</span></span><br><span class="line">	                slv_reg3[(byte_index*<span class="number">8</span>) +: <span class="number">8</span>] &lt;= S_AXI_WDATA[(byte_index*<span class="number">8</span>) +: <span class="number">8</span>];</span><br><span class="line">	              <span class="keyword">end</span>  </span><br><span class="line">	          <span class="keyword">default</span> : <span class="keyword">begin</span></span><br><span class="line">	                      slv_reg0 &lt;= slv_reg0;</span><br><span class="line">	                      slv_reg1 &lt;= slv_reg1;</span><br><span class="line">	                      slv_reg2 &lt;= slv_reg2;</span><br><span class="line">	                      slv_reg3 &lt;= slv_reg3;</span><br><span class="line">	                    <span class="keyword">end</span></span><br><span class="line">	        <span class="keyword">endcase</span></span><br><span class="line">	      <span class="keyword">end</span></span><br><span class="line">	  <span class="keyword">end</span></span><br><span class="line">	<span class="keyword">end</span>    </span><br><span class="line"></span><br><span class="line">	<span class="comment">// Implement write response logic generation</span></span><br><span class="line">	<span class="comment">// The write response and response valid signals are asserted by the slave </span></span><br><span class="line">	<span class="comment">// when axi_wready, S_AXI_WVALID, axi_wready and S_AXI_WVALID are asserted.  </span></span><br><span class="line">	<span class="comment">// This marks the acceptance of address and indicates the status of </span></span><br><span class="line">	<span class="comment">// write transaction.</span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">always</span> @( <span class="keyword">posedge</span> S_AXI_ACLK )</span><br><span class="line">	<span class="keyword">begin</span></span><br><span class="line">	  <span class="keyword">if</span> ( S_AXI_ARESETN == <span class="number">1'b0</span> )</span><br><span class="line">	    <span class="keyword">begin</span></span><br><span class="line">	      axi_bvalid  &lt;= <span class="number">0</span>;</span><br><span class="line">	      axi_bresp   &lt;= <span class="number">2'b0</span>;</span><br><span class="line">	    <span class="keyword">end</span> </span><br><span class="line">	  <span class="keyword">else</span></span><br><span class="line">	    <span class="keyword">begin</span>    </span><br><span class="line">	      <span class="keyword">if</span> (axi_awready &amp;&amp; S_AXI_AWVALID &amp;&amp; ~axi_bvalid &amp;&amp; axi_wready &amp;&amp; S_AXI_WVALID)</span><br><span class="line">	        <span class="keyword">begin</span></span><br><span class="line">	          <span class="comment">// indicates a valid write response is available</span></span><br><span class="line">	          axi_bvalid &lt;= <span class="number">1'b1</span>;</span><br><span class="line">	          axi_bresp  &lt;= <span class="number">2'b0</span>; <span class="comment">// 'OKAY' response </span></span><br><span class="line">	        <span class="keyword">end</span>                   <span class="comment">// work error responses in future</span></span><br><span class="line">	      <span class="keyword">else</span></span><br><span class="line">	        <span class="keyword">begin</span></span><br><span class="line">	          <span class="keyword">if</span> (S_AXI_BREADY &amp;&amp; axi_bvalid) </span><br><span class="line">	            <span class="comment">//check if bready is asserted while bvalid is high) </span></span><br><span class="line">	            <span class="comment">//(there is a possibility that bready is always asserted high)   </span></span><br><span class="line">	            <span class="keyword">begin</span></span><br><span class="line">	              axi_bvalid &lt;= <span class="number">1'b0</span>; </span><br><span class="line">	            <span class="keyword">end</span>  </span><br><span class="line">	        <span class="keyword">end</span></span><br><span class="line">	    <span class="keyword">end</span></span><br><span class="line">	<span class="keyword">end</span>   </span><br><span class="line"></span><br><span class="line">	<span class="comment">// Implement axi_arready generation</span></span><br><span class="line">	<span class="comment">// axi_arready is asserted for one S_AXI_ACLK clock cycle when</span></span><br><span class="line">	<span class="comment">// S_AXI_ARVALID is asserted. axi_awready is </span></span><br><span class="line">	<span class="comment">// de-asserted when reset (active low) is asserted. </span></span><br><span class="line">	<span class="comment">// The read address is also latched when S_AXI_ARVALID is </span></span><br><span class="line">	<span class="comment">// asserted. axi_araddr is reset to zero on reset assertion.</span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">always</span> @( <span class="keyword">posedge</span> S_AXI_ACLK )</span><br><span class="line">	<span class="keyword">begin</span></span><br><span class="line">	  <span class="keyword">if</span> ( S_AXI_ARESETN == <span class="number">1'b0</span> )</span><br><span class="line">	    <span class="keyword">begin</span></span><br><span class="line">	      axi_arready &lt;= <span class="number">1'b0</span>;</span><br><span class="line">	      axi_araddr  &lt;= <span class="number">32'b0</span>;</span><br><span class="line">	    <span class="keyword">end</span> </span><br><span class="line">	  <span class="keyword">else</span></span><br><span class="line">	    <span class="keyword">begin</span>    </span><br><span class="line">	      <span class="keyword">if</span> (~axi_arready &amp;&amp; S_AXI_ARVALID)</span><br><span class="line">	        <span class="keyword">begin</span></span><br><span class="line">	          <span class="comment">// indicates that the slave has acceped the valid read address</span></span><br><span class="line">	          axi_arready &lt;= <span class="number">1'b1</span>;</span><br><span class="line">	          <span class="comment">// Read address latching</span></span><br><span class="line">	          axi_araddr  &lt;= S_AXI_ARADDR;</span><br><span class="line">	        <span class="keyword">end</span></span><br><span class="line">	      <span class="keyword">else</span></span><br><span class="line">	        <span class="keyword">begin</span></span><br><span class="line">	          axi_arready &lt;= <span class="number">1'b0</span>;</span><br><span class="line">	        <span class="keyword">end</span></span><br><span class="line">	    <span class="keyword">end</span> </span><br><span class="line">	<span class="keyword">end</span>       </span><br><span class="line"></span><br><span class="line">	<span class="comment">// Implement axi_arvalid generation</span></span><br><span class="line">	<span class="comment">// axi_rvalid is asserted for one S_AXI_ACLK clock cycle when both </span></span><br><span class="line">	<span class="comment">// S_AXI_ARVALID and axi_arready are asserted. The slave registers </span></span><br><span class="line">	<span class="comment">// data are available on the axi_rdata bus at this instance. The </span></span><br><span class="line">	<span class="comment">// assertion of axi_rvalid marks the validity of read data on the </span></span><br><span class="line">	<span class="comment">// bus and axi_rresp indicates the status of read transaction.axi_rvalid </span></span><br><span class="line">	<span class="comment">// is deasserted on reset (active low). axi_rresp and axi_rdata are </span></span><br><span class="line">	<span class="comment">// cleared to zero on reset (active low).  </span></span><br><span class="line">	<span class="keyword">always</span> @( <span class="keyword">posedge</span> S_AXI_ACLK )</span><br><span class="line">	<span class="keyword">begin</span></span><br><span class="line">	  <span class="keyword">if</span> ( S_AXI_ARESETN == <span class="number">1'b0</span> )</span><br><span class="line">	    <span class="keyword">begin</span></span><br><span class="line">	      axi_rvalid &lt;= <span class="number">0</span>;</span><br><span class="line">	      axi_rresp  &lt;= <span class="number">0</span>;</span><br><span class="line">	    <span class="keyword">end</span> </span><br><span class="line">	  <span class="keyword">else</span></span><br><span class="line">	    <span class="keyword">begin</span>    </span><br><span class="line">	      <span class="keyword">if</span> (axi_arready &amp;&amp; S_AXI_ARVALID &amp;&amp; ~axi_rvalid)</span><br><span class="line">	        <span class="keyword">begin</span></span><br><span class="line">	          <span class="comment">// Valid read data is available at the read data bus</span></span><br><span class="line">	          axi_rvalid &lt;= <span class="number">1'b1</span>;</span><br><span class="line">	          axi_rresp  &lt;= <span class="number">2'b0</span>; <span class="comment">// 'OKAY' response</span></span><br><span class="line">	        <span class="keyword">end</span>   </span><br><span class="line">	      <span class="keyword">else</span> <span class="keyword">if</span> (axi_rvalid &amp;&amp; S_AXI_RREADY)</span><br><span class="line">	        <span class="keyword">begin</span></span><br><span class="line">	          <span class="comment">// Read data is accepted by the master</span></span><br><span class="line">	          axi_rvalid &lt;= <span class="number">1'b0</span>;</span><br><span class="line">	        <span class="keyword">end</span>                </span><br><span class="line">	    <span class="keyword">end</span></span><br><span class="line">	<span class="keyword">end</span>    </span><br><span class="line"></span><br><span class="line">	<span class="comment">// Implement memory mapped register select and read logic generation</span></span><br><span class="line">	<span class="comment">// Slave register read enable is asserted when valid address is available</span></span><br><span class="line">	<span class="comment">// and the slave is ready to accept the read address.</span></span><br><span class="line">	<span class="keyword">assign</span> slv_reg_rden = axi_arready &amp; S_AXI_ARVALID &amp; ~axi_rvalid;</span><br><span class="line">	<span class="keyword">always</span> @(*)</span><br><span class="line">	<span class="keyword">begin</span></span><br><span class="line">	      <span class="comment">// Address decoding for reading registers</span></span><br><span class="line">	      <span class="keyword">case</span> ( axi_araddr[ADDR_LSB+OPT_MEM_ADDR_BITS:ADDR_LSB] )</span><br><span class="line">	        <span class="number">2'h0</span>   : reg_data_out &lt;= slv_reg0;</span><br><span class="line">	        <span class="number">2'h1</span>   : reg_data_out &lt;= &#123;<span class="number">24'b0</span>, switches_in&#125;;</span><br><span class="line">	        <span class="number">2'h2</span>   : reg_data_out &lt;= slv_reg2;</span><br><span class="line">	        <span class="number">2'h3</span>   : reg_data_out &lt;= <span class="number">32'h323dfeed</span>;</span><br><span class="line">	        <span class="keyword">default</span> : reg_data_out &lt;= <span class="number">0</span>;</span><br><span class="line">	      <span class="keyword">endcase</span></span><br><span class="line">	<span class="keyword">end</span></span><br><span class="line"></span><br><span class="line">	<span class="comment">// Output register or memory read data</span></span><br><span class="line">	<span class="keyword">always</span> @( <span class="keyword">posedge</span> S_AXI_ACLK )</span><br><span class="line">	<span class="keyword">begin</span></span><br><span class="line">	  <span class="keyword">if</span> ( S_AXI_ARESETN == <span class="number">1'b0</span> )</span><br><span class="line">	    <span class="keyword">begin</span></span><br><span class="line">	      axi_rdata  &lt;= <span class="number">0</span>;</span><br><span class="line">	    <span class="keyword">end</span> </span><br><span class="line">	  <span class="keyword">else</span></span><br><span class="line">	    <span class="keyword">begin</span>    </span><br><span class="line">	      <span class="comment">// When there is a valid read address (S_AXI_ARVALID) with </span></span><br><span class="line">	      <span class="comment">// acceptance of read address by the slave (axi_arready), </span></span><br><span class="line">	      <span class="comment">// output the read dada </span></span><br><span class="line">	      <span class="keyword">if</span> (slv_reg_rden)</span><br><span class="line">	        <span class="keyword">begin</span></span><br><span class="line">	          axi_rdata &lt;= reg_data_out;     <span class="comment">// register read data</span></span><br><span class="line">	        <span class="keyword">end</span>   </span><br><span class="line">	    <span class="keyword">end</span></span><br><span class="line">	<span class="keyword">end</span>    </span><br><span class="line"></span><br><span class="line">	<span class="comment">// Add user logic here</span></span><br><span class="line">	<span class="keyword">assign</span> leds_out = slv_reg0[<span class="number">7</span>:<span class="number">0</span>];</span><br><span class="line">	<span class="comment">// User logic ends</span></span><br><span class="line"></span><br><span class="line">	<span class="keyword">endmodule</span></span><br></pre></td></tr></table></figure>
+
+<img src="/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_12.PNG" class="[class names]">
+<img src="/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_13.PNG" class="[class names]">
+
+
+
+<h2 id="Run-Synthesis-gt-close-the-Project-gt-then-you-can-add-your-custom-IP"><a href="#Run-Synthesis-gt-close-the-Project-gt-then-you-can-add-your-custom-IP" class="headerlink" title=" Run Synthesis -&gt; close the Project -&gt; then you can add your custom IP"></a><font size="4"> Run Synthesis -&gt; close the Project -&gt; then you can add your custom IP</font></h2><h2 id="Refresh-IP-Catalog-gt-delete-old-blinker-ip-0-and-add-again-gt-Run-Connection-Automation"><a href="#Refresh-IP-Catalog-gt-delete-old-blinker-ip-0-and-add-again-gt-Run-Connection-Automation" class="headerlink" title=" Refresh IP Catalog -&gt; delete old blinker_ip_0 and add again -&gt; Run Connection Automation"></a><font size="4"> Refresh IP Catalog -&gt; delete old blinker_ip_0 and add again -&gt; Run Connection Automation</font></h2><h2 id="Create-Ports-input-7-0-switches-and-ouput-7-0-leds-gt-connect-with-module-gt-Create-HDL-Wrapper-gt-OK"><a href="#Create-Ports-input-7-0-switches-and-ouput-7-0-leds-gt-connect-with-module-gt-Create-HDL-Wrapper-gt-OK" class="headerlink" title=" Create Ports input [7:0] switches and ouput [7:0] leds -&gt; connect with module -&gt; Create HDL Wrapper -&gt; OK  "></a><font size="4"> Create Ports input [7:0] switches and ouput [7:0] leds -&gt; connect with module -&gt; Create HDL Wrapper -&gt; OK <br> <br></font></h2><img src="/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_14.PNG" class="[class names]">
+<img src="/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_15.PNG" class="[class names]">
+<img src="/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_16.PNG" class="[class names]">
+
+<h2 id="Run-Synthesis-gt-Run-Implementation-gt-Open-Implementation-Design-gt-Set-Ports-gt-Ctrl-S-gt-constraints-xdc"><a href="#Run-Synthesis-gt-Run-Implementation-gt-Open-Implementation-Design-gt-Set-Ports-gt-Ctrl-S-gt-constraints-xdc" class="headerlink" title=" Run Synthesis -&gt; Run Implementation -&gt; Open Implementation Design -&gt; Set Ports -&gt; Ctrl + S -&gt; constraints.xdc"></a><font size="4"> Run Synthesis -&gt; Run Implementation -&gt; Open Implementation Design -&gt; Set Ports -&gt; Ctrl + S -&gt; constraints.xdc</font></h2><figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br></pre></td><td class="code"><pre><span class="line">set_property PACKAGE_PIN U14 [get_ports &#123;leds[<span class="number">7</span>]&#125;]</span><br><span class="line">set_property PACKAGE_PIN U19 [get_ports &#123;leds[<span class="number">6</span>]&#125;]</span><br><span class="line">set_property PACKAGE_PIN W22 [get_ports &#123;leds[<span class="number">5</span>]&#125;]</span><br><span class="line">set_property PACKAGE_PIN V22 [get_ports &#123;leds[<span class="number">4</span>]&#125;]</span><br><span class="line">set_property PACKAGE_PIN U21 [get_ports &#123;leds[<span class="number">3</span>]&#125;]</span><br><span class="line">set_property PACKAGE_PIN U22 [get_ports &#123;leds[<span class="number">2</span>]&#125;]</span><br><span class="line">set_property PACKAGE_PIN T21 [get_ports &#123;leds[<span class="number">1</span>]&#125;]</span><br><span class="line">set_property PACKAGE_PIN T22 [get_ports &#123;leds[<span class="number">0</span>]&#125;]</span><br><span class="line">set_property IOSTANDARD LVCMOS33 [get_ports &#123;leds[<span class="number">7</span>]&#125;]</span><br><span class="line">set_property IOSTANDARD LVCMOS33 [get_ports &#123;leds[<span class="number">6</span>]&#125;]</span><br><span class="line">set_property IOSTANDARD LVCMOS33 [get_ports &#123;leds[<span class="number">5</span>]&#125;]</span><br><span class="line">set_property IOSTANDARD LVCMOS33 [get_ports &#123;leds[<span class="number">4</span>]&#125;]</span><br><span class="line">set_property IOSTANDARD LVCMOS33 [get_ports &#123;leds[<span class="number">3</span>]&#125;]</span><br><span class="line">set_property IOSTANDARD LVCMOS33 [get_ports &#123;leds[<span class="number">2</span>]&#125;]</span><br><span class="line">set_property IOSTANDARD LVCMOS33 [get_ports &#123;leds[<span class="number">1</span>]&#125;]</span><br><span class="line">set_property IOSTANDARD LVCMOS33 [get_ports &#123;leds[<span class="number">0</span>]&#125;]</span><br><span class="line">set_property PACKAGE_PIN M15 [get_ports &#123;switches[<span class="number">7</span>]&#125;]</span><br><span class="line">set_property PACKAGE_PIN H17 [get_ports &#123;switches[<span class="number">6</span>]&#125;]</span><br><span class="line">set_property PACKAGE_PIN H18 [get_ports &#123;switches[<span class="number">5</span>]&#125;]</span><br><span class="line">set_property PACKAGE_PIN H19 [get_ports &#123;switches[<span class="number">4</span>]&#125;]</span><br><span class="line">set_property PACKAGE_PIN F21 [get_ports &#123;switches[<span class="number">3</span>]&#125;]</span><br><span class="line">set_property PACKAGE_PIN H22 [get_ports &#123;switches[<span class="number">2</span>]&#125;]</span><br><span class="line">set_property PACKAGE_PIN G22 [get_ports &#123;switches[<span class="number">1</span>]&#125;]</span><br><span class="line">set_property PACKAGE_PIN F22 [get_ports &#123;switches[<span class="number">0</span>]&#125;]</span><br><span class="line">set_property IOSTANDARD LVCMOS18 [get_ports &#123;switches[<span class="number">7</span>]&#125;]</span><br><span class="line">set_property IOSTANDARD LVCMOS18 [get_ports &#123;switches[<span class="number">6</span>]&#125;]</span><br><span class="line">set_property IOSTANDARD LVCMOS18 [get_ports &#123;switches[<span class="number">5</span>]&#125;]</span><br><span class="line">set_property IOSTANDARD LVCMOS18 [get_ports &#123;switches[<span class="number">4</span>]&#125;]</span><br><span class="line">set_property IOSTANDARD LVCMOS18 [get_ports &#123;switches[<span class="number">3</span>]&#125;]</span><br><span class="line">set_property IOSTANDARD LVCMOS18 [get_ports &#123;switches[<span class="number">2</span>]&#125;]</span><br><span class="line">set_property IOSTANDARD LVCMOS18 [get_ports &#123;switches[<span class="number">1</span>]&#125;]</span><br><span class="line">set_property IOSTANDARD LVCMOS18 [get_ports &#123;switches[<span class="number">0</span>]&#125;]</span><br></pre></td></tr></table></figure>
+
+<img src="/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_17.PNG" class="[class names]">
+<img src="/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_18.PNG" class="[class names]">
+<img src="/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_19.PNG" class="[class names]">
+
+<h2 id="Run-Implementation-gt-Generate-Bitstream-gt-Open-Hardware-Manager-gt-Auto-Connect-gt-Program"><a href="#Run-Implementation-gt-Generate-Bitstream-gt-Open-Hardware-Manager-gt-Auto-Connect-gt-Program" class="headerlink" title=" Run Implementation -&gt; Generate Bitstream -&gt; Open Hardware Manager -&gt; Auto Connect -&gt; Program"></a><font size="4"> Run Implementation -&gt; Generate Bitstream -&gt; Open Hardware Manager -&gt; Auto Connect -&gt; Program</font></h2><h1 id="3、Launch-SDK"><a href="#3、Launch-SDK" class="headerlink" title="  3、Launch SDK"></a><br> <font size="5"> 3、Launch SDK</font></h1><h2 id="Project-Export-hardward-check-include-bitstream-gt-launch-SDK-gt-New-C-project"><a href="#Project-Export-hardward-check-include-bitstream-gt-launch-SDK-gt-New-C-project" class="headerlink" title=" Project  Export hardward (check include bitstream) -&gt; launch SDK -&gt; New C project  "></a><font size="4"> Project  Export hardward (check include bitstream) -&gt; launch SDK -&gt; New C project <br> <br></font></h2><img src="/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_20.PNG" class="[class names]">
+<img src="/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_21.PNG" class="[class names]">
+<img src="/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_22.PNG" class="[class names]">
+<img src="/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_23.PNG" class="[class names]">
+<img src="/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_24.PNG" class="[class names]">
+<img src="/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_25.PNG" class="[class names]">
+<img src="/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_26.PNG" class="[class names]">
+
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    init_platform();</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">volatile</span> <span class="keyword">unsigned</span> <span class="keyword">int</span> *blinker = (<span class="keyword">volatile</span> <span class="keyword">unsigned</span> <span class="keyword">int</span> * ) <span class="number">0x43c00000</span>;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">if</span> (blinker[<span class="number">3</span>] != <span class="number">0x3233feed</span>)</span><br><span class="line">    &#123;</span><br><span class="line">    	<span class="built_in">printf</span>(<span class="string">"Warning: did not find the device.\n"</span>);    	</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    <span class="keyword">while</span>(<span class="number">1</span>)&#123;</span><br><span class="line">    	blinker[<span class="number">0</span>] = blinker[<span class="number">1</span>];</span><br><span class="line">    &#125;</span><br><span class="line">    </span><br><span class="line">    cleanup_platform();</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<img src="/uploads/Zedboard_Custom_IP/Zedboard_Custom_IP_27.PNG" class="[class names]">
+
+<h2 id="Now-your-leds-will-be-turned-on-by-switches"><a href="#Now-your-leds-will-be-turned-on-by-switches" class="headerlink" title=" Now your leds will be turned on by switches."></a><font size="4"> Now your leds will be turned on by switches.</font></h2><h1 id="Reference"><a href="#Reference" class="headerlink" title="  Reference"></a><br> <font size="5"> Reference</font></h1><h2 id="Vivado-Custom-IP-with-Memory-Mapped-I-O"><a href="#Vivado-Custom-IP-with-Memory-Mapped-I-O" class="headerlink" title=" Vivado Custom IP with Memory Mapped I/O"></a><font size="4"> <a href="https://www.youtube.com/watch?v=MbteffkRi8Y" target="_blank" rel="noopener">Vivado Custom IP with Memory Mapped I/O</a></font></h2><h2 id="Basic-FPGA-Tutorial"><a href="#Basic-FPGA-Tutorial" class="headerlink" title=" Basic FPGA Tutorial"></a><font size="4"> <a href="https://www.so-logic.net/documents/knowledge/tutorial/Basic_FPGA_Tutorial_Verilog/sec_designing_with_ips.html" target="_blank" rel="noopener">Basic FPGA Tutorial</a></font></h2>
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/ZedBoard/" rel="tag"># ZedBoard</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/06/21/ZedBoard-Blinking-Light/" rel="next" title="Blinking_Light">
+                <i class="fa fa-chevron-left"></i> Blinking_Light
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/uploads/duffy.jpg" alt="RenHeng, Huang">
+            
+              <p class="site-author-name" itemprop="name">RenHeng, Huang</p>
+              <p class="site-description motion-element" itemprop="description">Duffy</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">3</span>
+                  <span class="site-state-item-name">posts</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-name">tags</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/1103105303" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="mailto:aaa525252222@gmail.com" target="_blank" title="E-Mail">
+                      
+                        <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1、Create-Project"><span class="nav-number">1.</span> <span class="nav-text">  1、Create Project</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Project-Name-gt-RTL-Project-gt-Next-gt-Choose-“Boards-ZedBoard-Zynq-Evaluation-and-Development-Kit”-gt-Finish"><span class="nav-number">1.1.</span> <span class="nav-text"> Project Name -&gt; RTL Project -&gt; Next -&gt; Choose “Boards / ZedBoard Zynq Evaluation and Development Kit” -&gt; Finish  </span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2、Custom-IP"><span class="nav-number">2.</span> <span class="nav-text">  2、Custom IP</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Create-Block-Design-gt-add-IP-gt-search-“ZYNQ7-Processing-System-gt-Run-Block-Automation-gt-OK-Double-Click-ZYNQ-gt-Add-UART-0-port"><span class="nav-number">2.1.</span> <span class="nav-text"> Create Block Design -&gt; add IP -&gt; search “ZYNQ7 Processing System -&gt; Run Block Automation -&gt; OK   Double Click ZYNQ -&gt; Add UART 0 port  </span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Create-and-package-New-IP"><span class="nav-number">2.2.</span> <span class="nav-text"> Create and package New IP </span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Edit-in-IP-Package-：-Right-click-“Blinker-ip-0”-and-choose-Edit-in-IP-Package-gt-ok"><span class="nav-number">2.3.</span> <span class="nav-text"> Edit in IP Package ： Right click “Blinker_ip_0” and choose Edit in IP Package -&gt; ok </span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Edit-blink-ip-v1-0-v-gt-Edit-blink-ip-v1-0-S00-AXI-v-gt-Merge-changes"><span class="nav-number">2.4.</span> <span class="nav-text"> Edit blink_ip_v1_0.v -&gt; Edit blink_ip_v1_0_S00_AXI.v -&gt; Merge changes </span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Edit-blink-ip-v1-0-v-：-edit-line-17-18-71-73-74"><span class="nav-number">2.5.</span> <span class="nav-text"> Edit blink_ip_v1_0.v ： edit line 17, 18, 71, 73, 74 </span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Edit-blink-ip-v1-0-S00-AXI-v-：-edit-line-17-18-376-378-403"><span class="nav-number">2.6.</span> <span class="nav-text"> Edit blink_ip_v1_0_S00_AXI.v ： edit line 17, 18, 376, 378, 403 </span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Run-Synthesis-gt-close-the-Project-gt-then-you-can-add-your-custom-IP"><span class="nav-number">2.7.</span> <span class="nav-text"> Run Synthesis -&gt; close the Project -&gt; then you can add your custom IP</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Refresh-IP-Catalog-gt-delete-old-blinker-ip-0-and-add-again-gt-Run-Connection-Automation"><span class="nav-number">2.8.</span> <span class="nav-text"> Refresh IP Catalog -&gt; delete old blinker_ip_0 and add again -&gt; Run Connection Automation</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Create-Ports-input-7-0-switches-and-ouput-7-0-leds-gt-connect-with-module-gt-Create-HDL-Wrapper-gt-OK"><span class="nav-number">2.9.</span> <span class="nav-text"> Create Ports input [7:0] switches and ouput [7:0] leds -&gt; connect with module -&gt; Create HDL Wrapper -&gt; OK  </span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Run-Synthesis-gt-Run-Implementation-gt-Open-Implementation-Design-gt-Set-Ports-gt-Ctrl-S-gt-constraints-xdc"><span class="nav-number">2.10.</span> <span class="nav-text"> Run Synthesis -&gt; Run Implementation -&gt; Open Implementation Design -&gt; Set Ports -&gt; Ctrl + S -&gt; constraints.xdc</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Run-Implementation-gt-Generate-Bitstream-gt-Open-Hardware-Manager-gt-Auto-Connect-gt-Program"><span class="nav-number">2.11.</span> <span class="nav-text"> Run Implementation -&gt; Generate Bitstream -&gt; Open Hardware Manager -&gt; Auto Connect -&gt; Program</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3、Launch-SDK"><span class="nav-number">3.</span> <span class="nav-text">  3、Launch SDK</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Project-Export-hardward-check-include-bitstream-gt-launch-SDK-gt-New-C-project"><span class="nav-number">3.1.</span> <span class="nav-text"> Project  Export hardward (check include bitstream) -&gt; launch SDK -&gt; New C project  </span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Now-your-leds-will-be-turned-on-by-switches"><span class="nav-number">3.2.</span> <span class="nav-text"> Now your leds will be turned on by switches.</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Reference"><span class="nav-number">4.</span> <span class="nav-text">  Reference</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Vivado-Custom-IP-with-Memory-Mapped-I-O"><span class="nav-number">4.1.</span> <span class="nav-text"> Vivado Custom IP with Memory Mapped I/O</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Basic-FPGA-Tutorial"><span class="nav-number">4.2.</span> <span class="nav-text"> Basic FPGA Tutorial</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">RenHeng, Huang</span>
+
+  
+</div>
+
+
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
