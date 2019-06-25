@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang>
+<head><meta name="generator" content="Hexo 3.9.0">
+  <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#222">
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform">
+<meta http-equiv="Cache-Control" content="no-siteapp">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css">
+
+<link href="/css/main.css?v=5.1.4" rel="stylesheet" type="text/css">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=5.1.4">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=5.1.4">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.4" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="ZedBoard,">
+
+
+
+
+
+
+
+
+
+
+<meta name="description" content="ZedBoard shift Light by Mulit IP">
+<meta name="keywords" content="ZedBoard">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Zedboard_Multi_Module_IP">
+<meta property="og:url" content="http://yoursite.com/2019/06/25/Multi_Module_Project/index.html">
+<meta property="og:site_name" content="Ren-Heng&#39;s blog">
+<meta property="og:description" content="ZedBoard shift Light by Mulit IP">
+<meta property="og:locale" content="default">
+<meta property="og:image" content="http://yoursite.com/uploads/Multi_Module_Project/Multi_Module_Project_00.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Multi_Module_Project/Multi_Module_Project_01.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Multi_Module_Project/Multi_Module_Project_02.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Multi_Module_Project/Multi_Module_Project_03.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Multi_Module_Project/Multi_Module_Project_04.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Multi_Module_Project/Multi_Module_Project_05.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Multi_Module_Project/Multi_Module_Project_06.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Multi_Module_Project/Multi_Module_Project_07.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Multi_Module_Project/Multi_Module_Project_08.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Multi_Module_Project/Multi_Module_Project_09.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Multi_Module_Project/Multi_Module_Project_10.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Multi_Module_Project/Multi_Module_Project_11.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Multi_Module_Project/Multi_Module_Project_12.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Multi_Module_Project/Multi_Module_Project_13.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Multi_Module_Project/Multi_Module_Project_14.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Multi_Module_Project/Multi_Module_Project_15.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Multi_Module_Project/Multi_Module_Project_16.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Multi_Module_Project/Multi_Module_Project_17.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Multi_Module_Project/Multi_Module_Project_18.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Multi_Module_Project/Multi_Module_Project_19_1.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Multi_Module_Project/Multi_Module_Project_19_2.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Multi_Module_Project/Multi_Module_Project_19_3.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Multi_Module_Project/Multi_Module_Project_19_4.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Multi_Module_Project/Multi_Module_Project_20.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Multi_Module_Project/Multi_Module_Project_21.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Multi_Module_Project/Multi_Module_Project_22.PNG">
+<meta property="og:image" content="http://yoursite.com/uploads/Multi_Module_Project/Multi_Module_Project_23.PNG">
+<meta property="og:updated_time" content="2019-06-25T15:35:39.358Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Zedboard_Multi_Module_IP">
+<meta name="twitter:description" content="ZedBoard shift Light by Mulit IP">
+<meta name="twitter:image" content="http://yoursite.com/uploads/Multi_Module_Project/Multi_Module_Project_00.PNG">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '5.1.4',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://yoursite.com/2019/06/25/Multi_Module_Project/">
+
+
+
+
+
+  <title>Zedboard_Multi_Module_IP | Ren-Heng's blog</title>
+  
+
+
+
+
+
+
+
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="default">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Ren-Heng's blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">No Gain Without pain</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br>
+            
+            Home
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-about">
+          <a href="/about/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-user"></i> <br>
+            
+            About
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br>
+            
+            Tags
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br>
+            
+            Archives
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/06/25/Multi_Module_Project/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Ren-Heng Huang">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="/uploads/duffy.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Ren-Heng's blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">Zedboard_Multi_Module_IP</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2019-06-25T22:45:20+08:00">
+                2019-06-25
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p><b> <font size="6"> ZedBoard shift Light by Mulit <a href="https://www.so-logic.net/documents/knowledge/tutorial/Basic_FPGA_Tutorial_Verilog/sec_designing_with_ips.html" target="_blank" rel="noopener">IP</a></font></b></p>
+<img src="/uploads/Multi_Module_Project/Multi_Module_Project_00.PNG" class="[class names]">
+<a id="more"></a>
+<h1 id="1、Create-First-Project"><a href="#1、Create-First-Project" class="headerlink" title=" 1、Create First Project"></a><br> <font size="5">1、Create First Project</font></h1><h2 id="Project-Name-“divider-module”-gt-Create-SystemVerilg-divider-sv-gt-Create-constraints-divider-ooc-xdc-gt-Choose-“Boards-ZedBoard-Zynq-Evaluation-and-Development-Kit”-gt-Finish"><a href="#Project-Name-“divider-module”-gt-Create-SystemVerilg-divider-sv-gt-Create-constraints-divider-ooc-xdc-gt-Choose-“Boards-ZedBoard-Zynq-Evaluation-and-Development-Kit”-gt-Finish" class="headerlink" title=" Project Name : “divider_module” -&gt; Create SystemVerilg : divider.sv -&gt; Create constraints : divider_ooc.xdc -&gt; Choose “Boards / ZedBoard Zynq Evaluation and Development Kit” -&gt; Finish   "></a><font size="4"> Project Name : “divider_module” -&gt; Create SystemVerilg : divider.sv -&gt; Create constraints : divider_ooc.xdc -&gt; Choose “Boards / ZedBoard Zynq Evaluation and Development Kit” -&gt; Finish  <br> <br></font></h2><img src="/uploads/Multi_Module_Project/Multi_Module_Project_01.PNG" class="[class names]">
+<img src="/uploads/Multi_Module_Project/Multi_Module_Project_02.PNG" class="[class names]">
+<img src="/uploads/Multi_Module_Project/Multi_Module_Project_03.PNG" class="[class names]">
+<img src="/uploads/Multi_Module_Project/Multi_Module_Project_04.PNG" class="[class names]">
+
+
+<h2 id="Edit-divider-sv"><a href="#Edit-divider-sv" class="headerlink" title=" Edit divider.sv"></a><font size="4"> Edit divider.sv</font></h2><figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">module</span> divider(</span><br><span class="line">  <span class="keyword">input</span> clk,</span><br><span class="line">  <span class="keyword">input</span> rst,</span><br><span class="line">  <span class="keyword">output</span> <span class="keyword">logic</span> clk_div</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line">  <span class="keyword">logic</span> [<span class="number">25</span>:<span class="number">0</span>] cnt;</span><br><span class="line"></span><br><span class="line">  <span class="keyword">always_ff</span> @(<span class="keyword">posedge</span> clk <span class="keyword">or</span> <span class="keyword">posedge</span> rst) <span class="keyword">begin</span></span><br><span class="line">    <span class="keyword">if</span> (rst) <span class="keyword">begin</span></span><br><span class="line">      cnt &lt;= <span class="number">26'd0</span>;</span><br><span class="line">      clk_div &lt;= <span class="number">'b0</span>;</span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">begin</span></span><br><span class="line"></span><br><span class="line">      <span class="keyword">if</span> (cnt == <span class="number">62500000</span>) cnt &lt;= <span class="number">26'd0</span>;</span><br><span class="line">      <span class="keyword">else</span> cnt &lt;= cnt + <span class="number">1</span>;</span><br><span class="line"></span><br><span class="line">      <span class="keyword">if</span> (cnt &lt; <span class="number">31250000</span>) clk_div &lt;= <span class="number">'b0</span>;</span><br><span class="line">      <span class="keyword">else</span> clk_div &lt;= <span class="number">'b1</span>;</span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line">  <span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">endmodule</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="Edit-divider-ooc-xdc"><a href="#Edit-divider-ooc-xdc" class="headerlink" title=" Edit divider_ooc.xdc"></a><font size="4"> Edit divider_ooc.xdc</font></h2><figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">create_clock -period <span class="number">8</span><span class="variable">.000</span> -name sys_clk_pin -waveform &#123;<span class="number">0</span><span class="variable">.000</span> <span class="number">4</span><span class="variable">.000</span>&#125; -add [get_ports clk]</span><br><span class="line">create_generated_clock -divide_by <span class="number">125000000</span> -source [get_ports clk] [get_ports clk_div];</span><br></pre></td></tr></table></figure>
+
+<h2 id="Out-of-Context-XDC-files-setting"><a href="#Out-of-Context-XDC-files-setting" class="headerlink" title=" Out-of-Context XDC files setting"></a><font size="4"> Out-of-Context XDC files setting</font></h2><img src="/uploads/Multi_Module_Project/Multi_Module_Project_05.PNG" class="[class names]">
+
+<h2 id="Package-the-frequency-divider-IP"><a href="#Package-the-frequency-divider-IP" class="headerlink" title=" Package the frequency divider IP"></a><font size="4"> Package the frequency divider IP</font></h2><img src="/uploads/Multi_Module_Project/Multi_Module_Project_06.PNG" class="[class names]">
+<img src="/uploads/Multi_Module_Project/Multi_Module_Project_07.PNG" class="[class names]">
+<img src="/uploads/Multi_Module_Project/Multi_Module_Project_08.PNG" class="[class names]">
+<img src="/uploads/Multi_Module_Project/Multi_Module_Project_09.PNG" class="[class names]">
+<img src="/uploads/Multi_Module_Project/Multi_Module_Project_10.PNG" class="[class names]">
+<img src="/uploads/Multi_Module_Project/Multi_Module_Project_11.PNG" class="[class names]">
+<img src="/uploads/Multi_Module_Project/Multi_Module_Project_12.PNG" class="[class names]">
+<img src="/uploads/Multi_Module_Project/Multi_Module_Project_13.PNG" class="[class names]">
+<h2 id="Close-divider-module-Project"><a href="#Close-divider-module-Project" class="headerlink" title=" Close divider_module Project"></a><font size="4"> Close divider_module Project</font></h2><h1 id="2、Create-Second-Project"><a href="#2、Create-Second-Project" class="headerlink" title=" 2、Create Second Project"></a><br> <font size="5">2、Create Second Project</font></h1><h2 id="Project-Name-“blinky-module”-gt-Create-SystemVerilg-blinky-sv-gt-Create-constraints-blinky-xdc-blinky-ooc-xdc-gt-Choose-“Boards-ZedBoard-Zynq-Evaluation-and-Development-Kit”-gt-Finish"><a href="#Project-Name-“blinky-module”-gt-Create-SystemVerilg-blinky-sv-gt-Create-constraints-blinky-xdc-blinky-ooc-xdc-gt-Choose-“Boards-ZedBoard-Zynq-Evaluation-and-Development-Kit”-gt-Finish" class="headerlink" title=" Project Name : “blinky_module” -&gt; Create SystemVerilg : blinky.sv -&gt; Create constraints : blinky.xdc , blinky_ooc.xdc -&gt; Choose “Boards / ZedBoard Zynq Evaluation and Development Kit” -&gt; Finish"></a><font size="4"> Project Name : “blinky_module” -&gt; Create SystemVerilg : blinky.sv -&gt; Create constraints : blinky.xdc , blinky_ooc.xdc -&gt; Choose “Boards / ZedBoard Zynq Evaluation and Development Kit” -&gt; Finish</font></h2><h2 id="Edit-blinky-sv"><a href="#Edit-blinky-sv" class="headerlink" title="Edit blinky.sv"></a><font size="4">Edit blinky.sv</font></h2><figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">module</span> blinky(</span><br><span class="line">  <span class="keyword">input</span> clk,</span><br><span class="line">  <span class="keyword">input</span> rst,</span><br><span class="line">  <span class="keyword">input</span> [<span class="number">1</span>:<span class="number">0</span>] sw,</span><br><span class="line">  <span class="keyword">output</span> <span class="keyword">logic</span> [<span class="number">3</span>:<span class="number">0</span>] led</span><br><span class="line">);</span><br><span class="line"></span><br><span class="line">  <span class="keyword">logic</span> dirct;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  <span class="keyword">always_ff</span> @(<span class="keyword">posedge</span> clk <span class="keyword">or</span> <span class="keyword">posedge</span> rst) <span class="keyword">begin</span></span><br><span class="line">    <span class="keyword">if</span> (rst) <span class="keyword">begin</span></span><br><span class="line">      led &lt;= <span class="number">4'b0000</span>;</span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">else</span> <span class="keyword">begin</span></span><br><span class="line">      <span class="keyword">if</span> (!dirct) <span class="keyword">begin</span></span><br><span class="line">        <span class="keyword">if</span> (led == <span class="number">0</span>) led &lt;= <span class="number">4'b0001</span>;</span><br><span class="line">        <span class="keyword">else</span> led &lt;= led &lt;&lt; <span class="number">1</span>;</span><br><span class="line">      <span class="keyword">end</span></span><br><span class="line">      <span class="keyword">else</span> <span class="keyword">begin</span></span><br><span class="line">        <span class="keyword">if</span> (led == <span class="number">0</span>) led &lt;= <span class="number">4'b1000</span>;</span><br><span class="line">        <span class="keyword">else</span> led &lt;= led &gt;&gt; <span class="number">1</span>;</span><br><span class="line">      <span class="keyword">end</span></span><br><span class="line">    <span class="keyword">end</span></span><br><span class="line">  <span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">  <span class="keyword">always_comb</span> <span class="keyword">begin</span></span><br><span class="line">    <span class="keyword">case</span> (sw)</span><br><span class="line">      <span class="number">2'b01</span>: dirct = <span class="number">1'b0</span>;</span><br><span class="line">      <span class="number">2'b10</span>: dirct = <span class="number">1'b1</span>;</span><br><span class="line">      <span class="keyword">default</span>: dirct = <span class="number">1'b0</span>;</span><br><span class="line">    <span class="keyword">endcase</span></span><br><span class="line">  <span class="keyword">end</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">endmodule</span></span><br></pre></td></tr></table></figure>
+
+<h2 id="Edit-blinky-xdc"><a href="#Edit-blinky-xdc" class="headerlink" title=" Edit blinky.xdc"></a><font size="4"> Edit blinky.xdc</font></h2><figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">set_input_delay <span class="number">0</span><span class="variable">.1</span> [get_ports &#123;sw[<span class="number">1</span>] sw[<span class="number">0</span>] rst&#125;];</span><br><span class="line">set_output_delay <span class="number">0</span><span class="variable">.1</span> [get_ports &#123;led[<span class="number">3</span>] led[<span class="number">2</span>] led[<span class="number">1</span>] led[<span class="number">0</span>]&#125;];</span><br><span class="line">set_max_delay <span class="number">0</span><span class="variable">.1</span> -from [get_ports &#123;sw[<span class="number">1</span>] sw[<span class="number">0</span>] rst&#125;] -to [get_ports &#123;led[<span class="number">3</span>] led[<span class="number">2</span>] led[<span class="number">1</span>] led[<span class="number">0</span>]&#125;];</span><br></pre></td></tr></table></figure>
+
+<h2 id="Edit-blinky-ooc-xdc"><a href="#Edit-blinky-ooc-xdc" class="headerlink" title=" Edit blinky_ooc.xdc"></a><font size="4"> Edit blinky_ooc.xdc</font></h2><figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">create_clock -period <span class="number">8</span><span class="variable">.000</span> -name sys_clk_pin -waveform &#123;<span class="number">0</span><span class="variable">.000</span> <span class="number">4</span><span class="variable">.000</span>&#125; -add [get_ports clk]</span><br></pre></td></tr></table></figure>
+
+<h2 id="Following-is-like-the-last-project-Out-of-Context-XDC-files-setting-gt-Create-and-Package-New-IP-gt-Package-your-current-project-gt-edit-Ports-and-Interfaces-gt-Package-IP"><a href="#Following-is-like-the-last-project-Out-of-Context-XDC-files-setting-gt-Create-and-Package-New-IP-gt-Package-your-current-project-gt-edit-Ports-and-Interfaces-gt-Package-IP" class="headerlink" title=" Following is like the last project : Out-of-Context XDC files setting -&gt; Create and Package New IP -&gt; Package your current project -&gt; edit Ports and Interfaces -&gt; Package IP"></a><font size="4"> Following is like the last project : Out-of-Context XDC files setting -&gt; Create and Package New IP -&gt; Package your current project -&gt; edit Ports and Interfaces -&gt; Package IP</font></h2><img src="/uploads/Multi_Module_Project/Multi_Module_Project_14.PNG" class="[class names]">
+<img src="/uploads/Multi_Module_Project/Multi_Module_Project_15.PNG" class="[class names]">
+<h2 id="Close-blinky-module-Project"><a href="#Close-blinky-module-Project" class="headerlink" title=" Close blinky_module Project"></a><font size="4"> Close blinky_module Project</font></h2><h1 id="3、Create-top-Project"><a href="#3、Create-top-Project" class="headerlink" title=" 3、Create top Project"></a><br> <font size="5">3、Create top Project</font></h1><h2 id="Project-Name-“top”-gt-Next-gt-Choose-“Boards-ZedBoard-Zynq-Evaluation-and-Development-Kit”-gt-Finish"><a href="#Project-Name-“top”-gt-Next-gt-Choose-“Boards-ZedBoard-Zynq-Evaluation-and-Development-Kit”-gt-Finish" class="headerlink" title=" Project Name : “top” -&gt; Next -&gt; Choose “Boards / ZedBoard Zynq Evaluation and Development Kit” -&gt; Finish"></a><font size="4"> Project Name : “top” -&gt; Next -&gt; Choose “Boards / ZedBoard Zynq Evaluation and Development Kit” -&gt; Finish</font></h2><h2 id="Include-divide-IP-Path-”Your-path”-divider-module-divider-module-srcs"><a href="#Include-divide-IP-Path-”Your-path”-divider-module-divider-module-srcs" class="headerlink" title=" Include divide IP, Path :”Your path”\divider_module\divider_module.srcs"></a><font size="4"> Include divide IP, Path :”Your path”\divider_module\divider_module.srcs</font></h2><h2 id="Include-blinky-IP-Path-”Your-path”-blinky-module-blinky-module-srcs"><a href="#Include-blinky-IP-Path-”Your-path”-blinky-module-blinky-module-srcs" class="headerlink" title=" Include blinky IP, Path :”Your path”\blinky_module\blinky_module.srcs"></a><font size="4"> Include blinky IP, Path :”Your path”\blinky_module\blinky_module.srcs</font></h2><img src="/uploads/Multi_Module_Project/Multi_Module_Project_16.PNG" class="[class names]">
+
+<h2 id="Create-Block-Design"><a href="#Create-Block-Design" class="headerlink" title=" Create Block Design"></a><font size="4"> Create Block Design</font></h2><img src="/uploads/Multi_Module_Project/Multi_Module_Project_17.PNG" class="[class names]">
+<img src="/uploads/Multi_Module_Project/Multi_Module_Project_18.PNG" class="[class names]">
+
+<h2 id="Create-Port-and-connect-module"><a href="#Create-Port-and-connect-module" class="headerlink" title=" Create Port and connect module"></a><font size="4"> Create Port and connect module</font></h2><img src="/uploads/Multi_Module_Project/Multi_Module_Project_19_1.PNG" class="[class names]">
+<img src="/uploads/Multi_Module_Project/Multi_Module_Project_19_2.PNG" class="[class names]">
+<img src="/uploads/Multi_Module_Project/Multi_Module_Project_19_3.PNG" class="[class names]">
+<img src="/uploads/Multi_Module_Project/Multi_Module_Project_19_4.PNG" class="[class names]">
+<img src="/uploads/Multi_Module_Project/Multi_Module_Project_20.PNG" class="[class names]">
+
+
+<h2 id="Run-Synthesis-gt-Run-Implementation-gt-Open-Implementation"><a href="#Run-Synthesis-gt-Run-Implementation-gt-Open-Implementation" class="headerlink" title=" Run Synthesis -&gt; Run Implementation -&gt; Open Implementation"></a><font size="4"> Run Synthesis -&gt; Run Implementation -&gt; Open Implementation</font></h2><img src="/uploads/Multi_Module_Project/Multi_Module_Project_21.PNG" class="[class names]">
+<img src="/uploads/Multi_Module_Project/Multi_Module_Project_22.PNG" class="[class names]">
+<h2 id="top-xdc"><a href="#top-xdc" class="headerlink" title=" top.xdc"></a><font size="4"> top.xdc</font></h2><figure class="highlight verilog"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line">set_property PACKAGE_PIN U14 [get_ports &#123;led[<span class="number">3</span>]&#125;]</span><br><span class="line">set_property PACKAGE_PIN U19 [get_ports &#123;led[<span class="number">2</span>]&#125;]</span><br><span class="line">set_property PACKAGE_PIN W22 [get_ports &#123;led[<span class="number">1</span>]&#125;]</span><br><span class="line">set_property PACKAGE_PIN V22 [get_ports &#123;led[<span class="number">0</span>]&#125;]</span><br><span class="line">set_property IOSTANDARD LVCMOS33 [get_ports &#123;led[<span class="number">3</span>]&#125;]</span><br><span class="line">set_property IOSTANDARD LVCMOS33 [get_ports &#123;led[<span class="number">2</span>]&#125;]</span><br><span class="line">set_property IOSTANDARD LVCMOS33 [get_ports &#123;led[<span class="number">1</span>]&#125;]</span><br><span class="line">set_property IOSTANDARD LVCMOS33 [get_ports &#123;led[<span class="number">0</span>]&#125;]</span><br><span class="line">set_property IOSTANDARD LVCMOS18 [get_ports clk]</span><br><span class="line">set_property IOSTANDARD LVCMOS18 [get_ports &#123;sw[<span class="number">1</span>]&#125;]</span><br><span class="line">set_property IOSTANDARD LVCMOS18 [get_ports &#123;sw[<span class="number">0</span>]&#125;]</span><br><span class="line">set_property PACKAGE_PIN F22 [get_ports &#123;sw[<span class="number">0</span>]&#125;]</span><br><span class="line">set_property PACKAGE_PIN G22 [get_ports &#123;sw[<span class="number">1</span>]&#125;]</span><br><span class="line">set_property PACKAGE_PIN Y9 [get_ports clk]</span><br><span class="line">set_property IOSTANDARD LVCMOS18 [get_ports rst]</span><br><span class="line">set_property PACKAGE_PIN M15 [get_ports rst]</span><br></pre></td></tr></table></figure>
+
+<h2 id="Create-HDL-Wrapper"><a href="#Create-HDL-Wrapper" class="headerlink" title=" Create HDL Wrapper"></a><font size="4"> Create HDL Wrapper</font></h2><img src="/uploads/Multi_Module_Project/Multi_Module_Project_23.PNG" class="[class names]">
+
+<h2 id="Run-Synthesis-gt-Run-Implementation-gt-Generate-Bitstream-gt-Open-Hardware-Manager-gt-Auto-Connect-gt-Program"><a href="#Run-Synthesis-gt-Run-Implementation-gt-Generate-Bitstream-gt-Open-Hardware-Manager-gt-Auto-Connect-gt-Program" class="headerlink" title=" Run Synthesis -&gt; Run Implementation -&gt; Generate Bitstream -&gt; Open Hardware Manager -&gt; Auto Connect -&gt; Program"></a><font size="4"> Run Synthesis -&gt; Run Implementation -&gt; Generate Bitstream -&gt; Open Hardware Manager -&gt; Auto Connect -&gt; Program</font></h2><h1 id="Reference"><a href="#Reference" class="headerlink" title="  Reference"></a><br> <font size="5"> Reference</font></h1><h2 id="NCKU-FPGA-Design"><a href="#NCKU-FPGA-Design" class="headerlink" title=" NCKU FPGA_Design"></a><font size="4"> <a href="https://github.com/ncku-vlsilab/FPGA_Design/tree/master/Lab02/Lab2-2" target="_blank" rel="noopener">NCKU FPGA_Design</a></font></h2>
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/ZedBoard/" rel="tag"># ZedBoard</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2019/06/23/Zedboard_Custom_IP/" rel="next" title="Zedboard_Custom_IP">
+                <i class="fa fa-chevron-left"></i> Zedboard_Custom_IP
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image" src="/uploads/duffy.jpg" alt="Ren-Heng Huang">
+            
+              <p class="site-author-name" itemprop="name">Ren-Heng Huang</p>
+              <p class="site-description motion-element" itemprop="description">Duffy</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">4</span>
+                  <span class="site-state-item-name">posts</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-name">tags</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+
+          
+            <div class="links-of-author motion-element">
+                
+                  <span class="links-of-author-item">
+                    <a href="https://github.com/1103105303" target="_blank" title="GitHub">
+                      
+                        <i class="fa fa-fw fa-github"></i>GitHub</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="mailto:aaa525252222@gmail.com" target="_blank" title="E-Mail">
+                      
+                        <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  </span>
+                
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1、Create-First-Project"><span class="nav-number">1.</span> <span class="nav-text"> 1、Create First Project</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Project-Name-“divider-module”-gt-Create-SystemVerilg-divider-sv-gt-Create-constraints-divider-ooc-xdc-gt-Choose-“Boards-ZedBoard-Zynq-Evaluation-and-Development-Kit”-gt-Finish"><span class="nav-number">1.1.</span> <span class="nav-text"> Project Name : “divider_module” -&gt; Create SystemVerilg : divider.sv -&gt; Create constraints : divider_ooc.xdc -&gt; Choose “Boards / ZedBoard Zynq Evaluation and Development Kit” -&gt; Finish   </span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Edit-divider-sv"><span class="nav-number">1.2.</span> <span class="nav-text"> Edit divider.sv</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Edit-divider-ooc-xdc"><span class="nav-number">1.3.</span> <span class="nav-text"> Edit divider_ooc.xdc</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Out-of-Context-XDC-files-setting"><span class="nav-number">1.4.</span> <span class="nav-text"> Out-of-Context XDC files setting</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Package-the-frequency-divider-IP"><span class="nav-number">1.5.</span> <span class="nav-text"> Package the frequency divider IP</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Close-divider-module-Project"><span class="nav-number">1.6.</span> <span class="nav-text"> Close divider_module Project</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2、Create-Second-Project"><span class="nav-number">2.</span> <span class="nav-text"> 2、Create Second Project</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Project-Name-“blinky-module”-gt-Create-SystemVerilg-blinky-sv-gt-Create-constraints-blinky-xdc-blinky-ooc-xdc-gt-Choose-“Boards-ZedBoard-Zynq-Evaluation-and-Development-Kit”-gt-Finish"><span class="nav-number">2.1.</span> <span class="nav-text"> Project Name : “blinky_module” -&gt; Create SystemVerilg : blinky.sv -&gt; Create constraints : blinky.xdc , blinky_ooc.xdc -&gt; Choose “Boards / ZedBoard Zynq Evaluation and Development Kit” -&gt; Finish</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Edit-blinky-sv"><span class="nav-number">2.2.</span> <span class="nav-text">Edit blinky.sv</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Edit-blinky-xdc"><span class="nav-number">2.3.</span> <span class="nav-text"> Edit blinky.xdc</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Edit-blinky-ooc-xdc"><span class="nav-number">2.4.</span> <span class="nav-text"> Edit blinky_ooc.xdc</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Following-is-like-the-last-project-Out-of-Context-XDC-files-setting-gt-Create-and-Package-New-IP-gt-Package-your-current-project-gt-edit-Ports-and-Interfaces-gt-Package-IP"><span class="nav-number">2.5.</span> <span class="nav-text"> Following is like the last project : Out-of-Context XDC files setting -&gt; Create and Package New IP -&gt; Package your current project -&gt; edit Ports and Interfaces -&gt; Package IP</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Close-blinky-module-Project"><span class="nav-number">2.6.</span> <span class="nav-text"> Close blinky_module Project</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3、Create-top-Project"><span class="nav-number">3.</span> <span class="nav-text"> 3、Create top Project</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Project-Name-“top”-gt-Next-gt-Choose-“Boards-ZedBoard-Zynq-Evaluation-and-Development-Kit”-gt-Finish"><span class="nav-number">3.1.</span> <span class="nav-text"> Project Name : “top” -&gt; Next -&gt; Choose “Boards / ZedBoard Zynq Evaluation and Development Kit” -&gt; Finish</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Include-divide-IP-Path-”Your-path”-divider-module-divider-module-srcs"><span class="nav-number">3.2.</span> <span class="nav-text"> Include divide IP, Path :”Your path”\divider_module\divider_module.srcs</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Include-blinky-IP-Path-”Your-path”-blinky-module-blinky-module-srcs"><span class="nav-number">3.3.</span> <span class="nav-text"> Include blinky IP, Path :”Your path”\blinky_module\blinky_module.srcs</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Create-Block-Design"><span class="nav-number">3.4.</span> <span class="nav-text"> Create Block Design</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Create-Port-and-connect-module"><span class="nav-number">3.5.</span> <span class="nav-text"> Create Port and connect module</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Run-Synthesis-gt-Run-Implementation-gt-Open-Implementation"><span class="nav-number">3.6.</span> <span class="nav-text"> Run Synthesis -&gt; Run Implementation -&gt; Open Implementation</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#top-xdc"><span class="nav-number">3.7.</span> <span class="nav-text"> top.xdc</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Create-HDL-Wrapper"><span class="nav-number">3.8.</span> <span class="nav-text"> Create HDL Wrapper</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Run-Synthesis-gt-Run-Implementation-gt-Generate-Bitstream-gt-Open-Hardware-Manager-gt-Auto-Connect-gt-Program"><span class="nav-number">3.9.</span> <span class="nav-text"> Run Synthesis -&gt; Run Implementation -&gt; Generate Bitstream -&gt; Open Hardware Manager -&gt; Auto Connect -&gt; Program</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Reference"><span class="nav-number">4.</span> <span class="nav-text">  Reference</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#NCKU-FPGA-Design"><span class="nav-number">4.1.</span> <span class="nav-text"> NCKU FPGA_Design</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Ren-Heng Huang</span>
+
+  
+</div>
+
+
+  <div class="powered-by">Powered by <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a></div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">Theme &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Gemini</a> v5.1.4</div>
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.4"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.4"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.4"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.4"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
