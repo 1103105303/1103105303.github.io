@@ -1,0 +1,17 @@
+2019 (ARM Contest) [http://www.armdesigncontest.com/about/] 
+#(32F746G-DISCOVERY)[https://www.st.com/en/evaluation-tools/32f746gdiscovery.html#overview]
+## The STM32F7 discovery kit allows users to develop and share applications with the STM32F7 Series microcontollers based on ARM® Cortex®-M7 core.
+// image 01
+
+# install software
+## Step 1 build (myST)[https://my.st.com/] account
+## Step 2 download (STM32CubeF7)[https://www.st.com/en/embedded-software/stm32cubef7.html] 
+## Step 3 download and install (STM32CubeProgrammer)[https://www.st.com/en/development-tools/stm32cubeprog.html]
+## Step 4 download and install (STM32CubeMX)[https://www.st.com/en/development-tools/stm32cubemx.html]
+## Step 5 install MDK-ARM
+
+
+# New Project
+## Open STM32CubeMX and select Start My project from STBoard "ACCESS TO BOARD SELECTOR"
+
+
