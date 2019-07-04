@@ -1,0 +1,59 @@
+﻿1、Download PuTTY : https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html
+2、Create a new project
+Project Name -> RTL Project -> Next -> Choose “Boards / ZedBoard Zynq Evaluation and Development Kit” -> Finish 
+Create block design
+// image01 
+Add ZYNQ7 Processing System IP 
+// image02
+Run Block Automation
+// image03
+PS-PL Configurations > Gneral > Enable Clock Resets > FCLK_RESET0_N (uncheck)
+PS-PL Configurations > AXI Non Secure Enablement > GP Master AXI Interface > M AXI GP0 Interface (uncheck)
+// image04
+
+Peripheral I/O Pins only UART 0 is checked
+
+// image05
+
+Clock Configuration > PL Fabric Clocks > FCLK_CLK0 (uncheck)
+
+// image06 ~ 07
+
+Validate Design -> Create HDL wrapper -> Run Implementation
+
+// image08 ~ 09
+
+3、Launch SDK
+File > Export > Export Hardware 
+File > Launch SDK
+// image10
+4、Write a hello world program
+File > New > Application Project > project name : Hello_world > Next > Empty Application > Finish
+// image11 ~ 12
+
+Add source file : hello.c
+// image13 ~ 14
+
+Edit hello.c -> ctrl + s
+```c
+#include "xil_printf.h"
+
+int main() {
+
+	xil_printf("Hello World!\r\n");
+
+	return 0;
+}
+```
+
+5、PuTTY
+install PuTTY -> ZedBoard connect UART port and PROG port -> set PuTTY
+// image15
+
+SDK，Run > Run Configuration
+// image16
+
+
+# Referencd
+xilinx zedboard -> https://www.xilinx.com/video/soc/hello-world-in-5-minutes.html
+FPGA Design Lab3-1 -> https://github.com/ncku-vlsilab/FPGA_Design/tree/master/Lab03/Lab3-1
